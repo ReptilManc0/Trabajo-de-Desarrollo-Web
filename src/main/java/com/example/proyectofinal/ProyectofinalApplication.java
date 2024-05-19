@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class ProyectofinalApplication {
 
     
-        @GetMapping("/hello")
-                
+        
+                @GetMapping("/hello")
                 public String hello(){
                 return "hola mundo";
                 } 
