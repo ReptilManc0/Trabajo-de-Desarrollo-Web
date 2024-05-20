@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
-<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+ <html lang="en" >
     <head>
         <meta charset="utf-8">
         <title>burger html5 landing page</title>
@@ -9,17 +8,17 @@
         <!-- Stylesheets -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
-        <link rel="stylesheet" href="css/flaticon.css" />
+        <link rel="stylesheet" th:href="@{/css/flaticon.css}" />
 
         <!-- Animate -->
-        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="@{../static/css/animate.css}">
         <!-- Bootsnav -->
-        <link rel="stylesheet" href="css/bootsnav.css">
+        <link rel="stylesheet" href="@{/css/bootsnav.css}">
         <!-- Color style -->
-        <link rel="stylesheet" href="css/color.css">
+        <link rel="stylesheet" href="@{/css/color.css}">
 
         <!-- Custom stylesheet -->
-        <link rel="stylesheet" href="css/custom.css" />
+        <link rel="stylesheet" href="@{/css/custom.css}" />
         <!--[if lt IE 9]>
                 <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
@@ -57,7 +56,7 @@
 
                 <!-- Start Header Navigation -->
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="#"><img src="images/logo.png" class="logo" alt=""></a>
+                    <a class="navbar-brand" href="#"><img th:src="images/logo.png" class="logo" alt=""></a>
                 </div>
                 <!-- End Header Navigation -->
             </div>   
