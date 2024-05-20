@@ -1,5 +1,5 @@
 <!DOCTYPE html>
- <html lang="en" >
+ <html xmlns:th="http://www.thymeleaf.org">
     <head>
         <meta charset="utf-8">
         <title>burger html5 landing page</title>
@@ -11,14 +11,14 @@
         <link rel="stylesheet" th:href="@{/css/flaticon.css}" />
 
         <!-- Animate -->
-        <link rel="stylesheet" href="@{../static/css/animate.css}">
+        <link rel="stylesheet" th:href="@{/css/animate.css}">
         <!-- Bootsnav -->
-        <link rel="stylesheet" href="@{/css/bootsnav.css}">
+        <link rel="stylesheet" th:href="@{/css/bootsnav.css}">
         <!-- Color style -->
-        <link rel="stylesheet" href="@{/css/color.css}">
+        <link rel="stylesheet" th:href="@{/css/color.css}">
 
         <!-- Custom stylesheet -->
-        <link rel="stylesheet" href="@{/css/custom.css}" />
+        <link rel="stylesheet" th:href="@{/css/custom.css}" />
         <!--[if lt IE 9]>
                 <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
@@ -56,7 +56,7 @@
 
                 <!-- Start Header Navigation -->
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="#"><img th:src="images/logo.png" class="logo" alt=""></a>
+                    <a class="navbar-brand" href="#"><img th:src="@{images/logo.png}" class="logo" alt=""></a>
                 </div>
                 <!-- End Header Navigation -->
             </div>   
@@ -94,7 +94,7 @@
                                     <p>*Based on pre-cooked patty weight.</p>							
                                 </div>
                                 <div class="stamp">
-                                    <img src="images/stamp.png" alt="" />
+                                    <img th:src="@{images/stamp.png}" alt="" />
                                 </div>
                             </div>
                         </div>
@@ -114,7 +114,7 @@
                         <div class="feature">
                             <div class="shack_burger">
                                 <div class="chicken">
-                                    <img src="images/chicken.png" alt="Chicken" />
+                                    <img th:src="@{images/chicken.png}" alt="Chicken" />
                                 </div>
 
                                 <h2>Shack Burger </h2>
@@ -178,13 +178,13 @@
                             <!-- carousel inner -->
                             <div class="carousel-inner" role="listbox">
                                 <div class="item active">
-                                    <img src="images/small_slider_bg.jpg" alt="" />
+                                    <img th:src="@{/images/small_slider_bg.jpg}" alt="" />
                                 </div>
                                 <div class="item">
-                                    <img src="images/small_slider_bg.jpg" alt="" />
+                                    <img th:src="@{/images/small_slider_bg.jpg}" alt="" />
                                 </div>
                                 <div class="item">
-                                    <img src="images/small_slider_bg.jpg" alt="" />
+                                    <img th:src="@{/images/small_slider_bg.jpg}" alt="" />
                                 </div>
                             </div><!-- carousel inner end -->
                         </div><!-- Carousel end-->
@@ -204,7 +204,7 @@
                     <!-- carousel inner -->
                     <div class="carousel-inner" role="listbox">
                         <div class="item active">
-                            <img src="images/large_slider_img.jpg" alt="Burger">
+                            <img th:src="@{/images/large_slider_img.jpg}" alt="Burger">
 
                             <div class="carousel-caption">
                                 <h2>Cheddar JUnky</h2>
@@ -218,7 +218,7 @@
                             </div>
                         </div>
                         <div class="item">
-                            <img src="images/large_slider_img.jpg" alt="Burger">
+                            <img th:src="@{/images/large_slider_img.jpg}" alt="Burger">
 
                             <div class="carousel-caption">
                                 <h2>Cheddar JUnky</h2>
@@ -232,7 +232,7 @@
                             </div>
                         </div>
                         <div class="item">
-                            <img src="images/large_slider_img.jpg" alt="Burger">
+                            <img th:src="@{/images/large_slider_img.jpg}" alt="Burger">
 
                             <div class="carousel-caption">
                                 <h2>Cheddar JUnky</h2>
@@ -330,7 +330,7 @@
 
                     <div class="col-lg-4 col-sm-4 col-xs-12 pull-right">
                         <div class="basic_info">
-                            <a href=""><img class="footer_logo" src="images/footer_logo.png" alt="Burger" /></a>
+                            <a href=""><img class="footer_logo" th:src="@{/images/footer_logo.png}" alt="Burger" /></a>
 
                             <ul class="list-inline social">
                                 <li><a href="" class="fa fa-facebook"></a></li>
@@ -364,11 +364,11 @@
         <script src="http://code.jquery.com/jquery-1.12.1.min.js"></script>		
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
         <!-- Bootsnav js -->
-        <script src="js/bootsnav.js"></script>
+        <script th:src="@{/js/bootsnav.js}"></script>
 
         <!-- JS Implementing Plugins -->
         <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
-        <script src="js/gmaps.min.js"></script>
+        <script th:src="@{/js/gmaps.min.js}"></script>
 
         <script type="text/javascript">
             var map;
@@ -403,6 +403,6 @@
 
 
         <!--main js-->
-        <script type="text/javascript" src="js/main.js"></script>
+        <script type="text/javascript" th:src="@{/js/main.js}"></script>
     </body>	
 </html>	
