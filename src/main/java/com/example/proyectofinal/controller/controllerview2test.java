@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 
-@RequestMapping("/hola")
+@RequestMapping("/burger")
 public class controllerview2test {
 
             @GetMapping(path={"/JSP"})
