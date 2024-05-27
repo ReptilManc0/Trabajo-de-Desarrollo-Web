@@ -22,5 +22,9 @@ public class controllerview2test {
             public String index(){
             return "index";
             }
+            @GetMapping(path={"/login"})
+            public String login(){
+            return "login";
+            }
 }
 
