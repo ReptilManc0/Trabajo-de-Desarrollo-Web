@@ -18,8 +18,8 @@ public class controllerview2test {
             public String e(){
             return "menu";
             }
-            @GetMapping(path={"/indes"})
-            public String indes(){
+            @GetMapping(path={"/index"})
+            public String index(){
             return "index";
             }
 }
