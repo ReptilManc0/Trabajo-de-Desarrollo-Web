@@ -23,4 +23,6 @@
             <h3>GHOOOHOAOSO</h3>
         </body>
     </html>
-
+</f:view>
+    
+    <jsp:expression <%Hola%>><jsp:expression/>  
