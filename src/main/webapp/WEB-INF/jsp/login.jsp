@@ -16,7 +16,7 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta http-equiv="x-ua-compatible" content="ie=edge" />
-        <title>zONA PARA EMPLEADOS BURGER</title>
+        <title>Iniciar Sesión</title>
         <!-- Font Awesome -->
         <link
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
@@ -36,7 +36,7 @@
 
     </head>
     <body style="background-color: #000">
-        
+
         <!--Main Navigation-->
         <header>
             <style>
@@ -61,27 +61,27 @@
             <nav class="navbar navbar-expand-lg navbar-dark d-none d-lg-block" style="z-index: 2000;">
                 <div class="container-fluid">
                     <!-- Navbar brand -->
-                    
+
                     <a class="navbar-brand" href="/burger/index">
                         <img src="https://i.imgur.com/PkQL0lh.png" style="width: 60px">
-                        <strong>RAPID BURGUER ZONA DE EMPLEADOS</strong>
+                        <strong>Iniciar Sesión</strong>
                     </a>
-                 
-     
+
+
                 </div>
             </nav>
             <!-- Navbar -->
-            
+
             <!-- Background image -->
             <div id="intro" class="bg-image shadow-2-strong">
                 <div class="mask d-flex align-items-center h-100" style="background-color: rgba(0, 0, 0, 0.8);">
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-xl-5 col-md-8">
-                                
+
                                 <form class="bg-white rounded shadow-5-strong p-5">
                                     <div class="text-center mb-3">
-                                    <p>INGRESE SU CORREO DE EMPLEADO</p>
+                                        <p>Ingrese sus datos</p>
                                     </div>
                                     <!-- Email input -->
                                     <div class="form-outline mb-4" data-mdb-input-init>
@@ -94,12 +94,29 @@
                                         <input type="password" id="form1Example2" class="form-control" />
                                         <label class="form-label" for="form1Example2">Contraseña</label>
                                     </div>
+                                    <!-- 2 column grid layout for inline styling -->
+                                    <div class="row mb-4">
+                                        <div class="col d-flex justify-content-center">
+                                            <!-- Checkbox -->
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value="" id="form1Example3" checked />
+                                                <label class="form-check-label" for="form1Example3">
+                                                    Remember me
+                                                </label>
+                                            </div>
+                                        </div>
 
-                                   
-                                   
+                                        <div class="col text-center">
+                                            <!-- Simple link -->
+                                            <a href="#!">Forgot password?</a>
+                                        </div>
+                                    </div>
+
+
+
 
                                     <!-- Submit button -->
-                                    <button type="submit" class="btn btn-primary btn-block" data-mdb-ripple-init>Sign in</button>
+                                    <button type="submit" class="btn btn-primary btn-block" data-mdb-ripple-init>Iniciar Sesión</button>
                                 </form>
                             </div>
                         </div>
@@ -113,6 +130,9 @@
         <!--Footer-->
         <footer class="bg-light text-lg-start">
             <div class="py-4 text-center">
+                <div class="col text-center">
+                    ¿No tienes cuenta?
+                </div>
                 <a role="button" class="btn btn-primary btn-lg m-2" data-mdb-ripple-init
                    href="#" rel="nofollow" target="_blank">
                     Volver al inicio
@@ -132,10 +152,10 @@
         </footer>
         <!--Footer-->
         <!-- MDB -->
-<script
-  type="text/javascript"
-  src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.3.0/mdb.umd.min.js"
-></script>
+        <script
+            type="text/javascript"
+            src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.3.0/mdb.umd.min.js"
+        ></script>
 
     </body>
 </html>
