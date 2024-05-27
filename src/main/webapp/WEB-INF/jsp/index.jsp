@@ -361,6 +361,11 @@
             <a href="#"><i class="fa fa-chevron-up"></i></a>
         </div><!-- End off scroll up->
 
+              
+        <!--WhatsApp API-->
+        <a href="https://api.whatsapp.com/send?phone=941811121" class="btn-wsp" target="_blank">
+            <i class="fa-brands fa-whatsapp"></i>
+                </a>
         <!-- JavaScript -->
         <script src="http://code.jquery.com/jquery-1.12.1.min.js"></script>		
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
