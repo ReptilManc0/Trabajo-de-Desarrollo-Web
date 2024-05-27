@@ -108,10 +108,10 @@
                 <div id="carouselExample" class="carousel slide">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="/images/alitas.jpg" class="d-block w-100" alt="...">
+                            <img src="/images/chicken.jpg" class="d-block w-100" alt="...">
                         </div>
                         <div class="carousel-item">
-                            <img src="/images/bebidas.jpg" class="d-block w-100" alt="...">
+                            <img src="/images/drinks_bg.jpg" class="d-block w-100" alt="...">
                         </div>
                         <div class="carousel-item">
                             <img src="/images/classic_bg.jpg" class="d-block w-100" alt="...">
