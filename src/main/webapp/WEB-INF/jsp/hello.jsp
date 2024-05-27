@@ -20,3 +20,5 @@
         </body>
     </html>
 </f:view>
+    
+    <jsp:expression <%Hola%>><jsp:expression/>  
