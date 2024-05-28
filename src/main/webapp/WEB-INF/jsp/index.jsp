@@ -71,11 +71,12 @@
                 <div class="widget">
                     <h6 class="title">Menu</h6>
                     <ul class="link">
-                        <li><a href="#">felix cuñado</a></li>
-                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Iniciar Sesion</a></li>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="#">Servicios</a></li>
                         <li><a href="#">Blog</a></li>
                         <li><a href="#">Portfolio</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Contacto</a></li>
                     </ul>
                 </div>
             </div>
