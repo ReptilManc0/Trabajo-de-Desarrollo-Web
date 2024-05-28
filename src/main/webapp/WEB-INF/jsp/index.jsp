@@ -209,7 +209,7 @@
                     <!-- carousel inner -->
                     <div class="carousel-inner" role="listbox">
                         <div class="item active">
-                            <img src="/images/large_slider_img.jpg" alt="Burger">
+                            <img src="/images/bebidas.jpg" alt="Burger">
 
                             <div class="carousel-caption">
                                 <h2>Cheddar Junky</h2>
@@ -223,7 +223,7 @@
                             </div>
                         </div>
                         <div class="item">
-                            <img src="/images/large_slider_img.jpg" alt="Burger">
+                            <img src="/images/alitas.jpg" alt="Burger">
 
                             <div class="carousel-caption">
                                 <h2>Cheddar Junky</h2>
