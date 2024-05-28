@@ -124,7 +124,7 @@
                                 </div>
 
                                 <h2>Rapi Burger </h2>
-                                <p>Black Angus beef patty topped with American cheese, tomato, lettuce, and ?Shack Sauce,? served in a grilled potato bun</p>
+                                <p>Nacimos para satisfacer a los clientes con la perculiaridad de tener buena calidad y ser los más rapido al servicio del cliente</p>
                             </div>
                         </div>
                     </div>
@@ -145,13 +145,13 @@
                 <div class="row">
                     <div class="col-md-6">
                         <div class="classic">
-                            <a href="" class="classic_btn">classic</a>
+                            <a href="" class="classic_btn">Mas Top</a>
 
                             <div class="overlay">
-                                <h3>House-ground hamburger</h3>
+                                <h3>La Clásica</h3>
                                 <p>(served in a grilled rosemary focaccia).</p>
 
-                                <p class="overlay_content">Instead of traditional cucumber pickles, legendary chef-owner Judy Rodgers accents her burgers with thin-cut zucchini strips pickled in apple cider vinegar, mustard seeds and turmeric.</p>
+                                <p class="overlay_content">El contenido de este plato es: Hamburguesa de la Casa, con Huevo frito y Papás al Hilo</p>
                             </div>
                         </div>
                     </div>
@@ -209,10 +209,10 @@
                     <!-- carousel inner -->
                     <div class="carousel-inner" role="listbox">
                         <div class="item active">
-                            <img src="https://imgur.com/LCSGQII" alt="Burger">
+                            <img src="https://imgur.com/LCSGQII.png" alt="Alitas">
 
                             <div class="carousel-caption">
-                                <h2>Cheddar Junky</h2>
+                                <h2>Alitas</h2>
                                 <h3>Stuffed Burgers</h3>
 
                                 <p>Chef Wesley Genovart makes this over-the-top, Shake Shackâ€“inspired burger with two thin stacked patties, thick-cut bacon, kimchi and a spicy homemade sauce.</p>
@@ -223,10 +223,10 @@
                             </div>
                         </div>
                         <div class="item">
-                            <img src="https://imgur.com/LCSGQII" alt="Burger">
+                            <img src="/images/bebidas.jpg" alt="Bebidas">
 
                             <div class="carousel-caption">
-                                <h2>Cheddar Junky</h2>
+                                <h2>Bebidas</h2>
                                 <h3>Stuffed Burgers</h3>
 
                                 <p>Chef Wesley Genovart makes this over-the-top, Shake Shackâ€“inspired burger with two thin stacked patties, thick-cut bacon, kimchi and a spicy homemade sauce.</p>
@@ -237,10 +237,10 @@
                             </div>
                         </div>
                         <div class="item">
-                            <img src="/images/large_slider_img.jpg" alt="Burger">
+                            <img src="/images/large_slider_img.jpg" alt="Hamburguesas">
 
                             <div class="carousel-caption">
-                                <h2>Cheddar Junky</h2>
+                                <h2>Hamburguesas</h2>
                                 <h3>Stuffed Burgers</h3>
 
                                 <p>Chef Wesley Genovart makes this over-the-top, Shake Shackâ€“inspired burger with two thin stacked patties, thick-cut bacon, kimchi and a spicy homemade sauce.</p>
