@@ -95,61 +95,61 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2" id="Form-Consultas">
-                        <form>
+                        <form action="https://formspree.io/f/xvoenjba" method="POST">
                             <h2>Formulario de Consultas</h2>
                             <div class="form-group">
                                 <label for="txtDNIConsulta">Nro DNI</label>
-                                <input type="text" class="form-control" id="txtDNIConsulta" placeholder="Ingrese su documento">
+                                <input name="DNI" type="text" class="form-control" id="txtDNIConsulta" placeholder="Ingrese su documento">
                             </div>
                             <div class="form-group">
                                 <label for="txtNombreConsulta">Nombres Completos *</label>
-                                <input type="text" class="form-control" id="txtNombreConsulta" placeholder="Ingrese sus nombres" required>
+                                <input type="text" class="form-control" id="txtNombreConsulta" placeholder="Ingrese sus nombres" required name="NombresCompletos">
                             </div>
-                                <div class="form-group">
-                                    <label for="txtDepartamento">Departamento</label>
-                                    <select id="txtDepartamento" class="form-control">
-                                        <!-- Esto tiene que ir vinculado a la base de datos o, según veamos 
-                                          conveniente que sea solo Ica --> 
-                                        <option selected>Amazonas</option>
-                                        <option selected>Áncash</option>
-                                        <option selected>Apurímac</option>
-                                        <option selected>Arequipa</option>
-                                        <option selected>Ayacucho</option>
-                                        <option selected>Cajamarca</option>
-                                        <option selected>Cuzco</option>
-                                        <option selected>Ica</option>
-                                        <option selected>Lima</option>
-                                    </select>
-                                </div>
-                                <!--<div class="form-group col-md-4">
-                                    <label for="txtProvincia">Provincia</label>
-                                    <select id="txtProvincia" class="form-control">
-                                        <option selected>Ica</option>
-                                        
-                                    </select>
-                                </div>
-                                <div class="form-group col-md-4">
-                                    <label for="txtDistrito">Distrito</label>
-                                    <select id="txtDistrito" class="form-control">
-                                        <option selected>Ica</option>
-                                        
-                                    </select>
-                                </div>-->
+                            <div class="form-group">
+                                <label for="txtDepartamento">Departamento</label>
+                                <select id="txtDepartamento" class="form-control" name="Departamento">
+                                    <!-- Esto tiene que ir vinculado a la base de datos o, según veamos 
+                                      conveniente que sea solo Ica --> 
+                                    <option selected>Amazonas</option>
+                                    <option selected>Áncash</option>
+                                    <option selected>Apurímac</option>
+                                    <option selected>Arequipa</option>
+                                    <option selected>Ayacucho</option>
+                                    <option selected>Cajamarca</option>
+                                    <option selected>Cuzco</option>
+                                    <option selected>Ica</option>
+                                    <option selected>Lima</option>
+                                </select>
+                            </div>
+                            <!--<div class="form-group col-md-4">
+                                <label for="txtProvincia">Provincia</label>
+                                <select id="txtProvincia" class="form-control">
+                                    <option selected>Ica</option>
+                                    
+                                </select>
+                            </div>
+                            <div class="form-group col-md-4">
+                                <label for="txtDistrito">Distrito</label>
+                                <select id="txtDistrito" class="form-control">
+                                    <option selected>Ica</option>
+                                    
+                                </select>
+                            </div>-->
                             <div class="form-group">
                                 <label for="txtTelfConsulta">Teléfono *</label>
-                                <input type="text" class="form-control" id="txtTelfConsulta" placeholder="Ingrese su teléfono" required>
+                                <input type="text" class="form-control" id="txtTelfConsulta" placeholder="Ingrese su teléfono" name="Telefono" required>
                             </div>
                             <div class="form-group">
                                 <label for="txtCorreoConsulta">Correo electrónico *</label>
-                                <input type="email" class="form-control" id="txtCorreoConsulta" placeholder="Ingrese su correo" required>
+                                <input type="email" class="form-control" id="txtCorreoConsulta" placeholder="Ingrese su correo" name="CorreoConsulta" required>
                             </div>
                             <div class="form-group">
                                 <label for="txtTituloConsulta">Título de la consulta *</label>
-                                <input type="text" class="form-control" id="txtTituloConsulta" placeholder="Ingrese el título de la consulta" required>
+                                <input type="text" class="form-control" id="txtTituloConsulta" name="TituloConsulta" placeholder="Ingrese el título de la consulta" required>
                             </div>
                             <div class="form-group">
                                 <label for="txtCuerpoConsulta">Consulta</label>
-                                <textarea class="form-control" id="txtCuerpoConsulta" rows="4" placeholder="Ingrese su mensaje"></textarea>
+                                <textarea class="form-control" id="txtCuerpoConsulta" name="CuerpoConsulta" rows="4" placeholder="Ingrese su mensaje"></textarea>
                             </div>
                             <div class="form-group">
                                 <div class="checkbox">
