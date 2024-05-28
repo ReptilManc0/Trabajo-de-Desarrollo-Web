@@ -17,12 +17,15 @@
         <link href="/css/bootsnav.css" rel="stylesheet" type="text/css"/>
         <!-- Color style -->
         <link href="/css/color.css" rel="stylesheet" type="text/css"/>
-
         <!-- Custom stylesheet -->
         <link href="/css/custom.css" rel="stylesheet" type="text/css"/>
         <!--[if lt IE 9]>
                 <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
+        <!--Font Awesome (WhatsApp creo)-->
+        <script src="https://kit.fontawesome.com/233c0f00ee.js" crossorigin="anonymous"></script>
+        <!-- Css WhatsApp btn-Whatsapp -->
+        <link href="/css/btnWsp.css" rel="stylesheet" type="text/css"/>
     </head>
     <body data-spy="scroll" data-target="#navbar-menu" data-offset="100">
 
@@ -335,7 +338,7 @@
 
                             <ul class="list-inline social">
                                 <li><a href="" class="fa fa-facebook"></a></li>
-                                <li><a href="" class="fa fa-twitter"></a></li>
+                                <li><a href="https://wa.me/51947190888" target="_blank" class="fa-brands fa-whatsapp"></a></li>
                                 <li><a href="" class="fa fa-instagram"></a></li>
                             </ul>
 
@@ -363,7 +366,7 @@
 
               
         <!--WhatsApp API-->
-        <a href="https://api.whatsapp.com/send?phone=941811121" class="btn-wsp" target="_blank">
+        <a href="https://api.whatsapp.com/send?phone=947190888" class="btn-wsp" target="_blank">
             <i class="fa-brands fa-whatsapp"></i>
                 </a>
         <!-- JavaScript -->
