@@ -26,5 +26,9 @@ public class controllerview2test {
             public String login(){
             return "login";
             }
+             @GetMapping(path={"/Nosotros"})
+            public String Nosotros(){
+            return "Nosotros";
+            }
 }
 

@@ -3,7 +3,7 @@
 <!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
     <head>
         <meta charset="utf-8">
-        <title>burger html5 landing page</title>
+        <title>Rapi Burguer</title>
         <!-- Mobile Specific Meta -->
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         <!-- Stylesheets -->
@@ -267,7 +267,7 @@
                         <div class="drinks">
                             <div class="inner_content">
                                 <span class="flaticon flaticon-drink"></span>
-                                <h2>Bebidas</h2>
+                                <h2>bebidas</h2>
                             </div>
                         </div>
                     </div>
