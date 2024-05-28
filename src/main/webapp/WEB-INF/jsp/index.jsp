@@ -90,16 +90,18 @@
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
                         <div class="banner">
-                            <h3>-introducing-</h3>
-                            <h1>FATTY BURGER</h1>
+
+                            <h1>Rapi Burguer</h1>
 
                             <div class="inner_banner">
                                 <div class="banner_content">
-                                    <p>A double layer of sear-sizzled 100% pure beef mingled with special sauce on a sesame seed bun and topped with melty American cheese, crisp lettuce, minced onions and tangy pickles.</p>
-                                    <p>*Based on pre-cooked patty weight.</p>							
+                                    <p>Descubre la rapidez y la delicia en cada bocado: desde nuestras hamburguesas jugosas con carne de res 100% pura, salsa especial, queso derretido, 
+                                        lechuga fresca, cebolla y pepinillos picantes en pan de semillas de sÈsamo, hasta nuestras alitas crujientes y sabrosas. 
+                                        AcompaÒa tu festÌn con una amplia selecciÛn de bebidas refrescantes para una experiencia de comida r·pida que te dejar· con ganas de m·s. 
+                                        °SatisfacciÛn instant·nea en cada visita!</p>							
                                 </div>
                                 <div class="stamp">
-                                    <img src="/images/stamp.png" alt="" />
+                                    <img src="images/stamp.png" alt=""/>
                                 </div>
                             </div>
                         </div>
@@ -119,11 +121,11 @@
                         <div class="feature">
                             <div class="shack_burger">
                                 <div class="chicken">
-                                    <img src="/images/chicken.png" alt="Chicken" />
+                                    <img src="images/chicken.png" alt=""/>
                                 </div>
 
-                                <h2>Shack Burger </h2>
-                                <p>Black Angus beef patty topped with American cheese, tomato, lettuce, and ‚ÄúShack Sauce,‚Äù served in a grilled potato bun</p>
+                                <h2>Rapi Burger </h2>
+                                <p>Black Angus beef patty topped with American cheese, tomato, lettuce, and ?Shack Sauce,? served in a grilled potato bun</p>
                             </div>
                             <p class="caption">*Limited Time Only</p>
                         </div>
