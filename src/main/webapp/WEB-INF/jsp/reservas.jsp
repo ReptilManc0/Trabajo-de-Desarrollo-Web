@@ -99,28 +99,28 @@
                         <h2>Datos</h2>
                         <form>
                             <div class="form-group">
-                                <label for="distrito">Distrito</label>
-                                <input type="text" class="form-control" id="distrito" placeholder="Ingrese Distrito">
+                                <label for="txtDistritoReserva">Distrito</label>
+                                <input type="text" class="form-control" id="txtDistritoReserva" placeholder="Ingrese Distrito">
                             </div>
                             <div class="form-group">
-                                <label for="telefono">Teléfono</label>
-                                <input type="tel" class="form-control" id="telefono" placeholder="Ingrese Teléfono">
+                                <label for="txtTelfReserva">Teléfono</label>
+                                <input type="tel" class="form-control" id="txtTelfReserva" placeholder="Ingrese Teléfono">
                             </div>
                             <div class="form-group">
-                                <label for="fechaHora">*Fecha/Hora</label>
-                                <input type="datetime-local" class="form-control" id="fechaHora">
+                                <label for="txtFechaHoraReserva">*Fecha/Hora</label>
+                                <input type="datetime-local" class="form-control" id="txtFechaHoraReserva">
                             </div>
                             <div class="form-group">
-                                <label for="cantidadPersonas">Cantidad de Personas</label>
-                                <input type="number"  class="form-control" min="2" max="8" placeholder="Ingrese Cantidad de Personas" required>
+                                <label for="txtCantidadPersonasReserva">Cantidad de Personas</label>
+                                <input type="number"  class="form-control" id="txtCantidadPersonasReserva" min="2" max="8" placeholder="Ingrese Cantidad de Personas" required>
                             </div>
                             <div class="form-group">
                                 <label for="motivoReserva">*Motivo de la reserva</label>
                                 <textarea class="form-control" id="motivoReserva" placeholder="Ingrese Motivo"></textarea>
                             </div>
                             <div class="form-group">
-                                <label for="comentario">Comentario</label>
-                                <textarea class="form-control" id="comentario" placeholder="Ingrese Comentario"></textarea>
+                                <label for="comentarioReserva">Comentario</label>
+                                <textarea class="form-control" id="comentarioReserva" placeholder="Ingrese Comentario"></textarea>
                             </div>
                             <div class="checkbox">
                                 <label>

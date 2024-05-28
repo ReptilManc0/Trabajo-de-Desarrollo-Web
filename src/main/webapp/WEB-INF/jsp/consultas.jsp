@@ -96,58 +96,69 @@
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2" id="Form-Consultas">
                         <form>
-                            <h2>ESCRÍBENOS</h2>
+                            <h2>Formulario de Consultas</h2>
                             <div class="form-group">
-                                <label for="documento">NRO DOCUMENTO</label>
-                                <input type="text" class="form-control" id="documento" placeholder="Ingrese su documento">
+                                <label for="txtDNIConsulta">Nro DNI</label>
+                                <input type="text" class="form-control" id="txtDNIConsulta" placeholder="Ingrese su documento">
                             </div>
                             <div class="form-group">
-                                <label for="nombre">NOMBRES COMPLETOS *</label>
-                                <input type="text" class="form-control" id="nombre" placeholder="Ingrese sus nombres">
+                                <label for="txtNombreConsulta">Nombres Completos *</label>
+                                <input type="text" class="form-control" id="txtNombreConsulta" placeholder="Ingrese sus nombres" required>
                             </div>
-                            <div class="form-row">
-                                <div class="form-group col-md-4">
-                                    <label for="departamento">DEPARTAMENTO</label>
-                                    <select id="departamento" class="form-control">
-                                        <option selected>LIMA</option>
-                                        <!-- Agregar más opciones según sea necesario -->
+                                <div class="form-group">
+                                    <label for="txtDepartamento">Departamento</label>
+                                    <select id="txtDepartamento" class="form-control">
+                                        <!-- Esto tiene que ir vinculado a la base de datos o, según veamos 
+                                          conveniente que sea solo Ica --> 
+                                        <option selected>Amazonas</option>
+                                        <option selected>Áncash</option>
+                                        <option selected>Apurímac</option>
+                                        <option selected>Arequipa</option>
+                                        <option selected>Ayacucho</option>
+                                        <option selected>Cajamarca</option>
+                                        <option selected>Cuzco</option>
+                                        <option selected>Ica</option>
+                                        <option selected>Lima</option>
+                                    </select>
+                                </div>
+                                <!--<div class="form-group col-md-4">
+                                    <label for="txtProvincia">Provincia</label>
+                                    <select id="txtProvincia" class="form-control">
+                                        <option selected>Ica</option>
+                                        
                                     </select>
                                 </div>
                                 <div class="form-group col-md-4">
-                                    <label for="provincia">PROVINCIA</label>
-                                    <select id="provincia" class="form-control">
-                                        <option selected>LIMA</option>
-                                        <!-- Agregar más opciones según sea necesario -->
+                                    <label for="txtDistrito">Distrito</label>
+                                    <select id="txtDistrito" class="form-control">
+                                        <option selected>Ica</option>
+                                        
                                     </select>
-                                </div>
-                                <div class="form-group col-md-4">
-                                    <label for="distrito">DISTRITO</label>
-                                    <select id="distrito" class="form-control">
-                                        <option selected>ANCÓN</option>
-                                        <!-- Agregar más opciones según sea necesario -->
-                                    </select>
-                                </div>
+                                </div>-->
+                            <div class="form-group">
+                                <label for="txtTelfConsulta">Teléfono *</label>
+                                <input type="text" class="form-control" id="txtTelfConsulta" placeholder="Ingrese su teléfono" required>
                             </div>
                             <div class="form-group">
-                                <label for="correo">CORREO *</label>
-                                <input type="email" class="form-control" id="correo" placeholder="Ingrese su correo">
+                                <label for="txtCorreoConsulta">Correo electrónico *</label>
+                                <input type="email" class="form-control" id="txtCorreoConsulta" placeholder="Ingrese su correo" required>
                             </div>
                             <div class="form-group">
-                                <label for="telefono">TELÉFONO *</label>
-                                <input type="text" class="form-control" id="telefono" placeholder="Ingrese su teléfono">
+                                <label for="txtTituloConsulta">Título de la consulta *</label>
+                                <input type="text" class="form-control" id="txtTituloConsulta" placeholder="Ingrese el título de la consulta" required>
                             </div>
                             <div class="form-group">
-                                <label for="mensaje">MENSAJE</label>
-                                <textarea class="form-control" id="mensaje" rows="4" placeholder="Ingrese su mensaje"></textarea>
+                                <label for="txtCuerpoConsulta">Consulta</label>
+                                <textarea class="form-control" id="txtCuerpoConsulta" rows="4" placeholder="Ingrese su mensaje"></textarea>
                             </div>
                             <div class="form-group">
                                 <div class="checkbox">
                                     <label>
-                                        <input type="checkbox"> He leído y acepto los Términos y condiciones de Villa Chicken.
+                                        <input type="checkbox"> He leído y acepto los Términos y condiciones de Rapi Burger.
                                     </label>
                                 </div>
                             </div>
-                            <button type="submit" class="btn btn-primary">ENVIAR</button>
+                            <button type="submit" class="btn btn-primary">Enviar</button>
                         </form>
                     </div>
                 </div>
