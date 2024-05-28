@@ -60,10 +60,13 @@
                 <div class="widget">
                     <h6 class="title">Menu</h6>
                     <ul class="link">
-                        <li><a href="#">Acerca de </a></li>
-                        <li><a href="#">Servicios</a></li>
+                        <li><a href="/burger/index">Inicio</a></li>
+                        <li><a href="/burger/login">Iniciar Sesion</a></li>
+                        <li><a href="/burger/menu">Menu</a></li>
+                        <li><a href="/burger/Nosotros">Nosotros</a></li>
                         <li><a href="#">Blog</a></li>
                         <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Contacto</a></li>
                     </ul>
                 </div>
             </div>
