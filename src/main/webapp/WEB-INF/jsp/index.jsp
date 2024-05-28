@@ -60,7 +60,7 @@
 
                 <!-- Start Header Navigation -->
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="#"><img src="/images/logo.png" class="logo" alt=""></a>
+                    <a class="navbar-brand" href="#"><img src="https://i.imgur.com/PkQL0lh.png" class="logo" alt=""></a>
                 </div>
                 <!-- End Header Navigation -->
             </div>   
@@ -71,10 +71,12 @@
                 <div class="widget">
                     <h6 class="title">Menu</h6>
                     <ul class="link">
-                        <li><a href="#">Acerca de </a></li>
+                        <li><a href="#">Iniciar Sesion</a></li>
+                        <li><a href="#">Menu</a></li>
                         <li><a href="#">Servicios</a></li>
                         <li><a href="#">Blog</a></li>
                         <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Contacto</a></li>
                     </ul>
                 </div>
             </div>
