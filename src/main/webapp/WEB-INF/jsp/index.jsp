@@ -108,7 +108,6 @@
                     </div>
                 </div>
             </div><!-- Container end -->
-            <p class="caption">*Limited Time Only</p>
         </header><!-- Header end -->
 
         <!-- Block Content -->
@@ -127,7 +126,6 @@
                                 <h2>Rapi Burger </h2>
                                 <p>Black Angus beef patty topped with American cheese, tomato, lettuce, and ?Shack Sauce,? served in a grilled potato bun</p>
                             </div>
-                            <p class="caption">*Limited Time Only</p>
                         </div>
                     </div>
                     <div class="col-sm-4">
@@ -214,7 +212,7 @@
                             <img src="/images/large_slider_img.jpg" alt="Burger">
 
                             <div class="carousel-caption">
-                                <h2>Cheddar JUnky</h2>
+                                <h2>Cheddar Junky</h2>
                                 <h3>Stuffed Burgers</h3>
 
                                 <p>Chef Wesley Genovart makes this over-the-top, Shake Shackâ€“inspired burger with two thin stacked patties, thick-cut bacon, kimchi and a spicy homemade sauce.</p>
@@ -228,7 +226,7 @@
                             <img src="/images/large_slider_img.jpg" alt="Burger">
 
                             <div class="carousel-caption">
-                                <h2>Cheddar JUnky</h2>
+                                <h2>Cheddar Junky</h2>
                                 <h3>Stuffed Burgers</h3>
 
                                 <p>Chef Wesley Genovart makes this over-the-top, Shake Shackâ€“inspired burger with two thin stacked patties, thick-cut bacon, kimchi and a spicy homemade sauce.</p>
@@ -242,7 +240,7 @@
                             <img src="/images/large_slider_img.jpg" alt="Burger">
 
                             <div class="carousel-caption">
-                                <h2>Cheddar JUnky</h2>
+                                <h2>Cheddar Junky</h2>
                                 <h3>Stuffed Burgers</h3>
 
                                 <p>Chef Wesley Genovart makes this over-the-top, Shake Shackâ€“inspired burger with two thin stacked patties, thick-cut bacon, kimchi and a spicy homemade sauce.</p>
@@ -261,7 +259,7 @@
                         <div class="menu">
                             <div class="inner_content">
                                 <span class="flaticon flaticon-burger"></span>
-                                <h2>menu</h2>
+                                <h2>MENU</h2>
                             </div>
                         </div>
                     </div>
@@ -269,7 +267,7 @@
                         <div class="drinks">
                             <div class="inner_content">
                                 <span class="flaticon flaticon-drink"></span>
-                                <h2>drinks</h2>
+                                <h2>Bebidas</h2>
                             </div>
                         </div>
                     </div>
@@ -277,7 +275,7 @@
                         <div class="sides">
                             <div class="inner_content">
                                 <span class="flaticon flaticon-food"></span>
-                                <h2>sides</h2>
+                                <h2>ESPECIALES</h2>
                             </div>
                         </div>
                     </div>
@@ -287,11 +285,11 @@
 
         <!-- Lock -->
         <section id="lock">
-            <h2>SERVING MORE THAN JUST BURGERS SINCE 1998</h2>
-            <p>Check out our opening hours and location address below.</p>
+            <h2>UN SERVICIO DISTINTO DESDE 2024</h2>
+            <p>Echa un vistazo a nuestros horarios de apertura y dirección de ubicación a continuación</p>
         </section>
 
-        <!-- Map -->
+        <!-- Map2 -->
         <div id="ourmaps"></div>
 
         <!-- Footer -->
@@ -299,7 +297,7 @@
             <!-- Container -->
             <div class="container">
                 <div class="row">
-
+                    
                     <div class="col-lg-3 col-sm-4 col-xs-12 col-lg-offset-1 pull-right">
                         <div class="subscribe">
                             <h4>Subscribe now</h4>
@@ -324,43 +322,30 @@
 
                     <div class="col-lg-3 col-sm-4 col-xs-12 col-lg-offset-1 pull-right">
                         <div class="contact_us">
-                            <h4>Contact Us</h4>
-                            <a href="">info@junkyburget.com</a>
+                            <h4>Contáctanos</h4>
+                            <a href="">rapiburguer@gmail.com</a>
+                            <a href="">LLamanos : 947190888</a>
 
                             <address>
-                                Jalan Awan Hijau, Taman OUG<br />
-                                58200 Kuala Lumpur <br />
-                                Malaysia <br />
+                                Calle lima 919<br />
+                                Ica<br />
                             </address>
                         </div>
                     </div>
 
                     <div class="col-lg-4 col-sm-4 col-xs-12 pull-right">
                         <div class="basic_info">
-                            <a href=""><img class="footer_logo" src="/images/footer_logo.png" alt="Burger" /></a>
-
+                            <a href=""><img class="footer_logo" src="https://i.imgur.com/PkQL0lh.png" alt="Burger" /></a>
                             <ul class="list-inline social">
                                 <li><a href="" class="fa fa-facebook"></a></li>
                                 <li><a href="https://wa.me/51947190888" target="_blank" class="fa-brands fa-whatsapp"></a></li>
                                 <li><a href="" class="fa fa-instagram"></a></li>
-                            </ul>
-
-                            <div class="footer-copyright">
-                                <p class="wow fadeInRight" data-wow-duration="1s">
-                                    Made with 
-                                    <i class="fa fa-heart"></i>
-                                    by 
-                                    <a target="_blank" href="http://bootstrapthemes.co">Bootstrap Themes</a> <br /> 
-                                    2016. All Rights Reserved
-                                </p>
-                            </div>					
+                            </ul>				
                         </div>
                     </div>
-
                 </div>
             </div><!-- Container end -->
         </footer><!-- Footer end -->
-
 
         <!-- scroll up-->
         <div class="scrollup">
@@ -379,31 +364,29 @@
         <script src="/js/bootsnav.js"></script>
 
         <!-- JS Implementing Plugins -->
-        <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAo6JggLbtp8UjyCIvXNDCmJgntu9Lrzdg&callback=initMap"></script>
         <script src="/js/gmaps.min.js"></script>
+
 
         <script type="text/javascript">
             var map;
             $(document).ready(function () {
                 map = new GMaps({
                     el: '#ourmaps',
-                    lat: 3.139003,
-                    lng: 101.686855,
+                    lat: -14.070157688707845,
+                    lng: -75.7266128536559,
                     scrollwheel: false
                 });
 
                 //locations request
                 map.getElevations({
-                    locations: [[3.139003, 101.686855]],
+                    locations: [[-14.070170697404436, -75.72667186225328]],
                     callback: function (result, status) {
-                        if (status == google.maps.ElevationStatus.OK) {
+                        if (status === google.maps.ElevationStatus.OK) {
                             for (var i in result) {
                                 map.addMarker({
                                     lat: result[i].location.lat(),
-                                    lng: result[i].location.lng(),
-                                    infoWindow: {
-                                        content: '<address class="tooltip_address"><b>Junky Burger</b><br />Jalan Awan Hijau, Taman OUG<br />58200 Kuala Lumpur <br />Malaysia <br /></address>'
-                                    }
+                                    lng: result[i].location.lng()
                                 });
                             }
                         }
