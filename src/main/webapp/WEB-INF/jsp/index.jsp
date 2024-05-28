@@ -3,7 +3,7 @@
 <!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
     <head>
         <meta charset="utf-8">
-        <title>burger html5 landing page</title>
+        <title>Rapi Burguer</title>
         <!-- Mobile Specific Meta -->
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         <!-- Stylesheets -->
@@ -88,23 +88,24 @@
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
                         <div class="banner">
-                            <h3>-introducing-</h3>
-                            <h1>FATTY BURGER</h1>
+
+                            <h1>Rapi Burguer</h1>
 
                             <div class="inner_banner">
                                 <div class="banner_content">
-                                    <p>A double layer of sear-sizzled 100% pure beef mingled with special sauce on a sesame seed bun and topped with melty American cheese, crisp lettuce, minced onions and tangy pickles.</p>
-                                    <p>*Based on pre-cooked patty weight.</p>							
+                                    <p>Descubre la rapidez y la delicia en cada bocado: desde nuestras hamburguesas jugosas con carne de res 100% pura, salsa especial, queso derretido, 
+                                        lechuga fresca, cebolla y pepinillos picantes en pan de semillas de sÈsamo, hasta nuestras alitas crujientes y sabrosas. 
+                                        AcompaÒa tu festÌn con una amplia selecciÛn de bebidas refrescantes para una experiencia de comida r·pida que te dejar· con ganas de m·s. 
+                                        °SatisfacciÛn instant·nea en cada visita!</p>							
                                 </div>
                                 <div class="stamp">
-                                    <img src="/images/stamp.png" alt="" />
+                                    <img src="images/stamp.png" alt=""/>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div><!-- Container end -->
-            <p class="caption">*Limited Time Only</p>
         </header><!-- Header end -->
 
         <!-- Block Content -->
@@ -117,13 +118,12 @@
                         <div class="feature">
                             <div class="shack_burger">
                                 <div class="chicken">
-                                    <img src="/images/chicken.png" alt="Chicken" />
+                                    <img src="images/chicken.png" alt=""/>
                                 </div>
 
-                                <h2>Shack Burger </h2>
-                                <p>Black Angus beef patty topped with American cheese, tomato, lettuce, and ‚ÄúShack Sauce,‚Äù served in a grilled potato bun</p>
+                                <h2>Rapi Burger </h2>
+                                <p>Black Angus beef patty topped with American cheese, tomato, lettuce, and ?Shack Sauce,? served in a grilled potato bun</p>
                             </div>
-                            <p class="caption">*Limited Time Only</p>
                         </div>
                     </div>
                     <div class="col-sm-4">
@@ -210,7 +210,7 @@
                             <img src="/images/large_slider_img.jpg" alt="Burger">
 
                             <div class="carousel-caption">
-                                <h2>Cheddar JUnky</h2>
+                                <h2>Cheddar Junky</h2>
                                 <h3>Stuffed Burgers</h3>
 
                                 <p>Chef Wesley Genovart makes this over-the-top, Shake Shack‚Äìinspired burger with two thin stacked patties, thick-cut bacon, kimchi and a spicy homemade sauce.</p>
@@ -224,7 +224,7 @@
                             <img src="/images/large_slider_img.jpg" alt="Burger">
 
                             <div class="carousel-caption">
-                                <h2>Cheddar JUnky</h2>
+                                <h2>Cheddar Junky</h2>
                                 <h3>Stuffed Burgers</h3>
 
                                 <p>Chef Wesley Genovart makes this over-the-top, Shake Shack‚Äìinspired burger with two thin stacked patties, thick-cut bacon, kimchi and a spicy homemade sauce.</p>
@@ -238,7 +238,7 @@
                             <img src="/images/large_slider_img.jpg" alt="Burger">
 
                             <div class="carousel-caption">
-                                <h2>Cheddar JUnky</h2>
+                                <h2>Cheddar Junky</h2>
                                 <h3>Stuffed Burgers</h3>
 
                                 <p>Chef Wesley Genovart makes this over-the-top, Shake Shack‚Äìinspired burger with two thin stacked patties, thick-cut bacon, kimchi and a spicy homemade sauce.</p>
@@ -257,7 +257,7 @@
                         <div class="menu">
                             <div class="inner_content">
                                 <span class="flaticon flaticon-burger"></span>
-                                <h2>menu</h2>
+                                <h2>MENU</h2>
                             </div>
                         </div>
                     </div>
@@ -265,7 +265,7 @@
                         <div class="drinks">
                             <div class="inner_content">
                                 <span class="flaticon flaticon-drink"></span>
-                                <h2>drinks</h2>
+                                <h2>bebidas</h2>
                             </div>
                         </div>
                     </div>
@@ -273,7 +273,7 @@
                         <div class="sides">
                             <div class="inner_content">
                                 <span class="flaticon flaticon-food"></span>
-                                <h2>sides</h2>
+                                <h2>ESPECIALES</h2>
                             </div>
                         </div>
                     </div>
@@ -283,11 +283,11 @@
 
         <!-- Lock -->
         <section id="lock">
-            <h2>SERVING MORE THAN JUST BURGERS SINCE 1998</h2>
-            <p>Check out our opening hours and location address below.</p>
+            <h2>UN SERVICIO DISTINTO DESDE 2024</h2>
+            <p>Echa un vistazo a nuestros horarios de apertura y direcciÛn de ubicaciÛn a continuaciÛn</p>
         </section>
 
-        <!-- Map -->
+        <!-- Map2 -->
         <div id="ourmaps"></div>
 
         <!-- Footer -->
@@ -295,7 +295,7 @@
             <!-- Container -->
             <div class="container">
                 <div class="row">
-
+                    
                     <div class="col-lg-3 col-sm-4 col-xs-12 col-lg-offset-1 pull-right">
                         <div class="subscribe">
                             <h4>øTienes alguna duda?</h4>
@@ -337,11 +337,9 @@
                             </div>					
                         </div>
                     </div>
-
                 </div>
             </div><!-- Container end -->
         </footer><!-- Footer end -->
-
 
         <!-- scroll up-->
         <div class="scrollup">
@@ -360,31 +358,29 @@
         <script src="/js/bootsnav.js"></script>
 
         <!-- JS Implementing Plugins -->
-        <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAo6JggLbtp8UjyCIvXNDCmJgntu9Lrzdg&callback=initMap"></script>
         <script src="/js/gmaps.min.js"></script>
+
 
         <script type="text/javascript">
             var map;
             $(document).ready(function () {
                 map = new GMaps({
                     el: '#ourmaps',
-                    lat: 3.139003,
-                    lng: 101.686855,
+                    lat: -14.070157688707845,
+                    lng: -75.7266128536559,
                     scrollwheel: false
                 });
 
                 //locations request
                 map.getElevations({
-                    locations: [[3.139003, 101.686855]],
+                    locations: [[-14.070170697404436, -75.72667186225328]],
                     callback: function (result, status) {
-                        if (status == google.maps.ElevationStatus.OK) {
+                        if (status === google.maps.ElevationStatus.OK) {
                             for (var i in result) {
                                 map.addMarker({
                                     lat: result[i].location.lat(),
-                                    lng: result[i].location.lng(),
-                                    infoWindow: {
-                                        content: '<address class="tooltip_address"><b>Junky Burger</b><br />Jalan Awan Hijau, Taman OUG<br />58200 Kuala Lumpur <br />Malaysia <br /></address>'
-                                    }
+                                    lng: result[i].location.lng()
                                 });
                             }
                         }
