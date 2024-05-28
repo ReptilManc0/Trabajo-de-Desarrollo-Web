@@ -9,7 +9,7 @@
     <html>
         <head>
             <meta charset="utf-8">
-            <title>MENU</title>
+            <title>Reserva Online</title>
             <!-- Mobile Specific Meta -->
             <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
             <!-- Stylesheets -->
@@ -89,16 +89,18 @@
             <div class="container">
                 <div class="row">
                     <!-- Formulario de Reservas -->
-                    <div class="col-md-6">
-                        <h2>Reserva</h2>
+                    <style>
+                        #DatosReserva {
+                            color:black;
+                            margin-top: 10%;
+                        }
+                    </style>
+                    <div class="col-md-6" id="DatosReserva">
+                        <h2>Datos</h2>
                         <form>
                             <div class="form-group">
                                 <label for="distrito">Distrito</label>
                                 <input type="text" class="form-control" id="distrito" placeholder="Ingrese Distrito">
-                            </div>
-                            <div class="form-group">
-                                <label for="tienda">Tienda</label>
-                                <input type="text" class="form-control" id="tienda" value="VILLA CHICKEN EL EJERCITO" readonly>
                             </div>
                             <div class="form-group">
                                 <label for="telefono">Teléfono</label>
@@ -110,15 +112,7 @@
                             </div>
                             <div class="form-group">
                                 <label for="cantidadPersonas">Cantidad de Personas</label>
-                                <div class="input-group">
-                                    <span class="input-group-btn">
-                                        <button type="button" class="btn btn-default" onclick="decreaseValue()">-</button>
-                                    </span>
-                                    <input type="text" class="form-control" id="cantidadPersonas" value="2" readonly>
-                                    <span class="input-group-btn">
-                                        <button type="button" class="btn btn-default" onclick="increaseValue()">+</button>
-                                    </span>
-                                </div>
+                                <input type="number"  class="form-control" min="2" max="8" placeholder="Ingrese Cantidad de Personas" required>
                             </div>
                             <div class="form-group">
                                 <label for="motivoReserva">*Motivo de la reserva</label>
@@ -130,36 +124,35 @@
                             </div>
                             <div class="checkbox">
                                 <label>
-                                    <input type="checkbox"> He leído y acepto los Términos y condiciones de Villa Chicken.
-                                </label>
-                            </div>
-                            <div class="checkbox">
-                                <label>
-                                    <input type="checkbox"> He leído y acepto las Políticas de Privacidad de Villa Chicken.
+                                    <input type="checkbox"> He leído y acepto los Términos y condiciones de Rapi Burger.
                                 </label>
                             </div>
                             <button type="submit" class="btn btn-primary">Enviar</button>
                         </form>
                     </div>
 
-                    <!-- Información Importante -->
-                    <div class="col-md-6">
+                    <!-- Bloque derecho "Importante" -->
+                    <style>
+                        #importante {
+                            color:black;
+                            margin-top: 10%;
+                        }
+                    </style>
+                    <div class="col-md-6" id="importante">
                         <h2>¡IMPORTANTE!</h2>
                         <p>Antes de solicitar una reserva debes tener en cuenta los siguientes términos y condiciones:</p>
                         <ol>
-                            <li>La reserva deberá realizarse con <strong>24 horas</strong> de anticipación.</li>
-                            <li>Las reservas se tomarán en los siguientes días:</li>
-                            <ul>
-                                <li>De lunes a sábado</li>
-                            </ul>
+                            <li>La reserva deberá realizarse con al menos <strong>24 horas</strong> de anticipación.</li>
+                            <li>Las reservas se tomarán en los siguientes días: <br>
+                                <strong>De lunes a sábado</strong>
+                            </li>
                             <li>No se agendarán reservas para los días domingos.</li>
-                            <li>Máximo por mesa entran <strong>8 personas</strong> por protocolo COVID.</li>
-                            <li>El número mínimo de personas para reservar es el siguiente:</li>
-                            <ul>
-                                <li>De lunes a viernes: de 2 a más personas.</li>
-                                <li>Se pueden aplicar las cortesías en base al motivo y número de personas.</li>
-                            </ul>
-                            <li>La tolerancia de tiempo de la mesa reservada es de <strong>15 minutos</strong>, si no se presenta en ese lapso de tiempo, automáticamente pierde la reserva.</li>
+                            <li>Máximo por mesa entran <strong>8 personas</strong>.</li>
+                            <li>El número mínimo de personas para reservar es el siguiente: <br>
+                                De lunes a viernes: de 2 a más personas. 
+                                Se pueden aplicar las cortesías en base al motivo y número de personas.
+                            </li>
+                            <li><strong>La tolerancia de tiempo de la mesa reservada es de 20 minutos</strong>, si no se presenta en ese lapso de tiempo, automáticamente pierde la reserva.</li>
                         </ol>
                         <img src="https://i.imgur.com/PkQL0lh.png" class="img-responsive" alt="Reserva">
                     </div>
@@ -234,23 +227,6 @@
             <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.2.0/mdb.umd.min.js"></script>
             <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-
-            <script>
-                                            function increaseValue() {
-                                                var value = parseInt(document.getElementById('cantidadPersonas').value, 10);
-                                                value = isNaN(value) ? 0 : value;
-                                                value++;
-                                                document.getElementById('cantidadPersonas').value = value;
-                                            }
-
-                                            function decreaseValue() {
-                                                var value = parseInt(document.getElementById('cantidadPersonas').value, 10);
-                                                value = isNaN(value) ? 0 : value;
-                                                value < 2 ? value = 2 : '';
-                                                value--;
-                                                document.getElementById('cantidadPersonas').value = value;
-                                            }
-            </script>
         </body>
     </html>
 </f:view>
