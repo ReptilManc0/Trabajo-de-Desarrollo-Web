@@ -71,7 +71,7 @@
                 <div class="widget">
                     <h6 class="title">Menu</h6>
                     <ul class="link">
-                        <li><a href="#">acerca</a></li>
+                        <li><a href="#">felix cuñado</a></li>
                         <li><a href="#">Services</a></li>
                         <li><a href="#">Blog</a></li>
                         <li><a href="#">Portfolio</a></li>
