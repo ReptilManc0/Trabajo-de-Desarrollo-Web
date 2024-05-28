@@ -71,11 +71,10 @@
                 <div class="widget">
                     <h6 class="title">Menu</h6>
                     <ul class="link">
-                        <li><a href="#">acerca</a></li>
-                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Acerca de </a></li>
+                        <li><a href="#">Servicios</a></li>
                         <li><a href="#">Blog</a></li>
                         <li><a href="#">Portfolio</a></li>
-                        <li><a href="#">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -299,42 +298,30 @@
 
                     <div class="col-lg-3 col-sm-4 col-xs-12 col-lg-offset-1 pull-right">
                         <div class="subscribe">
-                            <h4>Subscribe now</h4>
-                            <p>Subscribe to the newsletter and
-                                get some crispy stuff every week.</p>
-
-                            <form role="form">
-                                <div class="form-group">
-                                    <div class="input-group">
-                                        <input type="email" class="form-control" id="em" placeholder="Enter your e-mail here">
-                                        <span class="input-group-btn">
-                                            <button type="submit" class="btn send_btn">
-                                                <i class="glyphicon glyphicon-send"></i>
-                                            </button>
-                                        </span>
-                                    </div>
-                                </div>
-                            </form>
-
+                            <h4>¿Tienes alguna duda?</h4>
+                            <p>Ingresa al <a href="">Apartado de consultas</a></p>
+                            
+                            <h4>¿Tienes alguna queja?</h4>
+                            <p>Revisa el <a href="">Libro de Reclamaciones</a></p>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-sm-4 col-xs-12 col-lg-offset-1 pull-right">
                         <div class="contact_us">
-                            <h4>Contact Us</h4>
-                            <a href="">info@junkyburget.com</a>
-
+                            <h4>Contáctanos</h4>
+                            <a href="">rapiburguer@gmail.com</a>
+                            <a href="">LLamanos : 954588927</a>
                             <address>
-                                Jalan Awan Hijau, Taman OUG<br />
-                                58200 Kuala Lumpur <br />
-                                Malaysia <br />
+                                
+                                Calle lima 919, Ica<br />
+                                Perú<br />
                             </address>
                         </div>
                     </div>
 
                     <div class="col-lg-4 col-sm-4 col-xs-12 pull-right">
                         <div class="basic_info">
-                            <a href=""><img class="footer_logo" src="/images/footer_logo.png" alt="Burger" /></a>
+                            <a href=""><img class="footer_logo" src="https://i.imgur.com/PkQL0lh.png" alt="Burger" /></a>
 
                             <ul class="list-inline social">
                                 <li><a href="" class="fa fa-facebook"></a></li>
@@ -344,11 +331,8 @@
 
                             <div class="footer-copyright">
                                 <p class="wow fadeInRight" data-wow-duration="1s">
-                                    Made with 
-                                    <i class="fa fa-heart"></i>
-                                    by 
-                                    <a target="_blank" href="http://bootstrapthemes.co">Bootstrap Themes</a> <br /> 
-                                    2016. All Rights Reserved
+                                     © 2024 Copyright:
+                                <a class="text-dark" href="">RapidBurger</a>
                                 </p>
                             </div>					
                         </div>

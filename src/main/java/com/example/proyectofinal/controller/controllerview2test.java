@@ -26,5 +26,10 @@ public class controllerview2test {
             public String login(){
             return "login";
             }
+            @GetMapping(path={"/registro"})
+            public String registro(){
+            return "registro";
+            }
+            
 }
 
