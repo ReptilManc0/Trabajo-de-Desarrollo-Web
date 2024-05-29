@@ -11,7 +11,7 @@
 
 <!DOCTYPE HTML>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -32,7 +32,7 @@
             href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.3.0/mdb.min.css"
             rel="stylesheet"
             />
-         <link href="/css/login.css" rel="stylesheet" type="text/css"/>
+        <link href="/css/login.css" rel="stylesheet" type="text/css"/>
 
 
     </head>
@@ -86,7 +86,7 @@
                                         <p class="text-dark">Ingrese sus datos</p>
                                     </div>
                                     <!-- Email input -->
-                                      <div class="form-outline mb-4" data-mdb-input-init>
+                                    <div class="form-outline mb-4" data-mdb-input-init>
                                         <input type="text" id="txtNombres" class="form-control" />
                                         <label class="form-label" for="txtNombres">Nombres</label>
                                     </div>
@@ -95,8 +95,8 @@
                                         <label class="form-label" for="txtApellidos">Apellidos </label>
                                     </div>
                                     <div class="form-outline mb-4" data-mdb-input-init>
-                                        <input type="text" id="txtTelï¿½fono" class="form-control" />
-                                        <label class="form-label" for="txtTelï¿½fono">Telï¿½fono</label>
+                                        <input type="text" id="txtTeléfono" class="form-control" />
+                                        <label class="form-label" for="txtTeléfono">Telefono</label>
                                     </div>
                                     <div class="form-outline mb-4" data-mdb-input-init>
                                         <input type="email" id="txtCorreo" class="form-control" />
@@ -104,19 +104,38 @@
                                     </div>
                                     <!-- Password input -->
                                     <div class="form-outline mb-4" data-mdb-input-init>
-                                        <input type="password" id="txtContraseï¿½a" class="form-control" />
-                                        <label class="form-label" for="txtContraseï¿½a">Contraseï¿½a</label>
+                                        <input type="password" id="txtContrasenia" class="form-control" />
+                                        <label class="form-label" for="txtContrasenia">Contraseña</label>
                                     </div>
 
+                                    <div class="text-dark">
+                                        <ul id="ListaComprobaciones" >
+                                            <li id="CompMayuscula" class="list-group-item text-danger">*La contraseña tiene que usar mayúsculas</li>
+                                            <li id="CompMinuscula" class="list-group-item text-danger">*La contraseña tiene que usar minusculas</li>
+                                            <li id="CompEspecial" class="list-group-item text-danger">*La contraseña tiene que usar caracteres especiales</li>
+                                            <li id="CompNumeros" class="list-group-item text-danger">*La contraseña tiene que incluir números</li>
+                                            <li id="CompLongitud" class="list-group-item text-danger">*La contraseña tiene que tener más de 8 caracteres</li>
+                                        </ul>
+                                    </div>
+                                    <div class="form-outline mb-4" data-mdb-input-init>
+                                        <input type="password" id="txtComprobarContrasenia" class="form-control" />
+                                        <label class="form-label" for="txtComprobarContrasenia">Repite La Contraseña</label>
+                                       
+                                    </div>
+                                    <div class="text-dark">
+                                     <ul >
+                                            <li id="CompRepetir" class="list-group-item text-danger">*Las Contraseñas no coinciden</li>
+                                        </ul>
+                                    </div>
                                     <button type="submit" class="btn btn-danger btn-block" data-mdb-ripple-init>Registrate</button>
                                 </form>
                                 <div class="py-4 text-center">
                                     <div class="col text-center">
-                                        ï¿½Ya tienes cuenta?
+                                        ¿Ya tienes cuenta?
                                     </div>
                                     <a role="button" class="btn btn-danger btn-lg m-2" data-mdb-ripple-init
                                        href="/burger/login" rel="nofollow" >
-                                        Iniciar Sesiï¿½n
+                                        Iniciar Sesión
                                     </a>
 
                                 </div>
@@ -134,87 +153,95 @@
         <!--Footer-->
         <!-- MDB -->
         <script
+            src="https://code.jquery.com/jquery-3.7.1.js"
+            integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+        crossorigin="anonymous"></script>
+        <script
             type="text/javascript"
             src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.3.0/mdb.umd.min.js"
         ></script>
 
+
+
+        <script src="/js/comprobaciones.js" type="text/javascript"></script>
+
     </body>
-     <footer class="text-center text-lg-start  text-white " style="background-color:#454646">
-         x<div class="py-4 text-center">
+    <footer class="text-center text-lg-start  text-white " style="background-color:#454646">
+        x<div class="py-4 text-center">
 
-             <a role="button" class="btn btn-danger btn-lg m-2" data-mdb-ripple-init
-                href="/burger/index" rel="nofollow" >
-                 Volver al Inicio
-             </a>
+            <a role="button" class="btn btn-danger btn-lg m-2" data-mdb-ripple-init
+               href="/burger/index" rel="nofollow" >
+                Volver al Inicio
+            </a>
 
-         </div>
+        </div>
 
-            <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-                <div class="container text-center text-md-start mt-5">
-                    <!-- Grid row -->
-                    <div class="row mt-3">
-                        <!-- Grid column -->
-                        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                            <!-- Content -->
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+            <div class="container text-center text-md-start mt-5">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <!-- Content -->
 
-                            <p>
-                            <div class="col">
-                                <div class="basic_info">
-                                    <a href="/burger/index"><img class="footer_logo" src="https://i.imgur.com/PkQL0lh.png" style="   margin-left: 20px;
-                                                    width: 160px;" alt="Burger" /></a>
+                        <p>
+                        <div class="col">
+                            <div class="basic_info">
+                                <a href="/burger/index"><img class="footer_logo" src="https://i.imgur.com/PkQL0lh.png" style="   margin-left: 20px;
+                                                             width: 160px;" alt="Burger" /></a>
 
-                                    <ul class="list-group list-group-horizontal list-group-flush">
-                                        <li class="list-group-item"><a href="" class="fa-brands fa-facebook"></a></li>
-                                        <li class="list-group-item"><a href="https://wa.me/51947190888" target="_blank" class="fa-brands fa-whatsapp"></a></li>
-                                        <li class="list-group-item"><a href="" class="fa-brands fa-instagram"></a></li>
-                                    </ul>
+                                <ul class="list-group list-group-horizontal list-group-flush">
+                                    <li class="list-group-item"><a href="" class="fa-brands fa-facebook"></a></li>
+                                    <li class="list-group-item"><a href="https://wa.me/51947190888" target="_blank" class="fa-brands fa-whatsapp"></a></li>
+                                    <li class="list-group-item"><a href="" class="fa-brands fa-instagram"></a></li>
+                                </ul>
 
-				
-                                </div>
+
                             </div>
-                            </p>
                         </div>
-                        <!-- Grid column -->
-                        <!-- Grid column -->
-                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-                            <!-- Links -->
-                            <h6 class="text-uppercase fw-bold mb-4">Contï¿½ctanos</h6>
-                            <p><i class="fas fa-home me-3"></i> Calle lima 919, Ica, Perï¿½<br />
-                                
-                            <p>
-                                <i class="fas fa-envelope me-3"></i>
-                                rapiburguer@gmail.com
-                            </p>
-                            <p><i class="fas fa-phone me-3"></i>LLamanos : 954588927</p>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">Contáctanos</h6>
+                        <p><i class="fas fa-home me-3"></i> Calle lima 919, Ica, Perú<br />
 
-                        </div>
-                        <!-- Grid column -->
-                        <!-- Grid column -->
-                       <div class="col-lg-3 col-sm-4 col-xs-12 col-lg-offset-1 pull-right">
+                        <p>
+                            <i class="fas fa-envelope me-3"></i>
+                            rapiburguer@gmail.com
+                        </p>
+                        <p><i class="fas fa-phone me-3"></i>LLamanos : 954588927</p>
+
+                    </div>
+                    <!-- Grid column -->
+                    <!-- Grid column -->
+                    <div class="col-lg-3 col-sm-4 col-xs-12 col-lg-offset-1 pull-right">
                         <div class="subscribe">
-                            <h4>ï¿½Tienes alguna duda?</h4>
+                            <h4>¿Tienes alguna duda?</h4>
                             <p>Ingresa al <a href="">Apartado de consultas</a></p>
-                            
-                            <h4>ï¿½Tienes alguna queja?</h4>
+
+                            <h4>¿Tienes alguna queja?</h4>
                             <p>Revisa el <a href="">Libro de Reclamaciones</a></p>
                         </div>
                     </div>
-                        <!-- Grid column -->
+                    <!-- Grid column -->
 
 
 
-                    </div>
-                    <!-- Grid row -->
                 </div>
-            </section>
-            <!-- Section: Links  -->
-
-
-            <!-- Copyright -->
-            <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-                ï¿½ 2021 Copyright:
-                <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+                <!-- Grid row -->
             </div>
-            <!-- Copyright -->
-        </footer>
+        </section>
+        <!-- Section: Links  -->
+
+
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+            2024 Copyright:
+            <a class="text-reset fw-bold" href="https://mdbootstrap.com/">RapidBurger</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
 </html>
