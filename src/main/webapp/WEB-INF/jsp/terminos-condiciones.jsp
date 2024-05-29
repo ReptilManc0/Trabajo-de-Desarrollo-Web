@@ -1,6 +1,6 @@
 <%-- 
-    Document   : reservas
-    Created on : 28 may. 2024, 11:58:35
+    Document   : terminos-condiciones
+    Created on : 28 may. 2024, 19:03:26
     Author     : diego
 --%>
 
@@ -8,8 +8,8 @@
     <!DOCTYPE html>
     <html>
         <head>
-            <meta charset="utf-8">
-            <title>Reserva Online</title>
+            <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+            <title>Términos y Condiciones</title>
             <!-- Mobile Specific Meta -->
             <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
             <!-- Stylesheets -->
@@ -62,8 +62,8 @@
                             <li><a href="/burger/login">Iniciar Sesion</a></li>
                             <li><a href="/burger/menu">Menu</a></li>
                             <li><a href="/burger/Nosotros">Nosotros</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Portfolio</a></li>
+                            <li><a href="/burger/consultas">Consultas</a></li>
+                            <li><a href="/burger/reservas">Reservas</a></li>
                             <li><a href="#">Contacto</a></li>
                         </ul>
                     </div>
@@ -78,92 +78,89 @@
                     <div class="row">
                         <div class="col-md-8 col-md-offset-2">
                             <div class="banner">
-                                <h1>Reservas</h1>
+                                <h1>Términos y Condiciones</h1>
                             </div>
                         </div>
                     </div>
                 </div><!-- Container end -->
             </header><!-- Header end -->
 
-            <!-- Reservas Section -->
+            <!-<!-- Container Formulario -->
+            <style>
+                #term-conditions {
+                    color: black;
+                    margin-top: 10%;
+                }
+            </style>
             <div class="container">
                 <div class="row">
-                    <!-- Formulario de Reservas -->
-                    <style>
-                        #DatosReserva {
-                            color:black;
-                            margin-top: 10%;
-                        }
-                    </style>
-                    <div class="col-md-6" id="DatosReserva">
-                        <h2>Datos</h2>
-                        <form>
-                            <div class="form-group">
-                                <label for="txtDistritoReserva">Distrito</label>
-                                <input type="text" class="form-control" id="txtDistritoReserva" placeholder="Ingrese Distrito">
-                            </div>
-                            <div class="form-group">
-                                <label for="txtTelfReserva">Teléfono</label>
-                                <input type="tel" class="form-control" id="txtTelfReserva" placeholder="Ingrese Teléfono">
-                            </div>
-                            <div class="form-group">
-                                <label for="txtFechaHoraReserva">*Fecha/Hora</label>
-                                <input type="datetime-local" class="form-control" id="txtFechaHoraReserva">
-                            </div>
-                            <div class="form-group">
-                                <label for="txtCantidadPersonasReserva">Cantidad de Personas</label>
-                                <input type="number"  class="form-control" id="txtCantidadPersonasReserva" min="2" max="8" placeholder="Ingrese Cantidad de Personas" required>
-                            </div>
-                            <div class="form-group">
-                                <label for="motivoReserva">*Motivo de la reserva</label>
-                                <textarea class="form-control" id="motivoReserva" placeholder="Ingrese Motivo"></textarea>
-                            </div>
-                            <div class="form-group">
-                                <label for="comentarioReserva">Comentario</label>
-                                <textarea class="form-control" id="comentarioReserva" placeholder="Ingrese Comentario"></textarea>
-                            </div>
-                            <div class="checkbox">
-                                <label>
-                                    <input type="checkbox"> He leído y acepto los Términos y condiciones de Rapi Burger.
-                                </label>
-                            </div>
-                            <button type="submit" class="btn btn-primary">Enviar</button>
-                        </form>
-                    </div>
-
-                    <!-- Bloque derecho "Importante" -->
-                    <style>
-                        #importante {
-                            color:black;
-                            margin-top: 10%;
-                        }
-                    </style>
-                    <div class="col-md-6" id="importante">
-                        <h2>¡IMPORTANTE!</h2>
-                        <p>Antes de solicitar una reserva debes tener en cuenta los siguientes términos y condiciones:</p>
-                        <ol>
-                            <li>La reserva deberá realizarse con al menos <strong>24 horas</strong> de anticipación.</li>
-                            <li>Las reservas se tomarán en los siguientes días: <br>
-                                <strong>De lunes a sábado</strong>
-                            </li>
-                            <li>No se agendarán reservas para los días domingos.</li>
-                            <li>Máximo por mesa entran <strong>8 personas</strong>.</li>
-                            <li>El número mínimo de personas para reservar es el siguiente: <br>
-                                De lunes a viernes: de 2 a más personas. 
-                                Se pueden aplicar las cortesías en base al motivo y número de personas.
-                            </li>
-                            <li><strong>La tolerancia de tiempo de la mesa reservada es de 20 minutos</strong>, si no se presenta en ese lapso de tiempo, automáticamente pierde la reserva.</li>
-                        </ol>
-                        <img src="https://i.imgur.com/PkQL0lh.png" class="img-responsive" alt="Reserva">
+                    <div class="col-md-8 col-md-offset-2" id="term-conditions">
+                        <div class="terms-conditions">
+                            <h2><strong>POLÍTICA DE PRIVACIDAD</strong></h2>
+                            <p>
+                                La presente Política de Privacidad establece los términos en que Rapi Burger usa y protege la 
+                                información que es proporcionada por sus usuarios al momento de utilizar su sitio web. Esta compañía está 
+                                comprometida con la seguridad de los datos de sus usuarios. Cuando le pedimos llenar los campos de información
+                                personal con la cual usted pueda ser identificado, lo hacemos asegurando que sólo se empleará de acuerdo con 
+                                los términos de este documento. Sin embargo esta Política de Privacidad puede cambiar con el tiempo o ser 
+                                actualizada por lo que le recomendamos y enfatizamos revisar continuamente esta página para asegurarse que 
+                                está de acuerdo con dichos cambios.
+                            </p>
+                            <h4>Información que es recogida</h4>
+                            <p>
+                                Nuestro sitio web podrá recoger información personal por ejemplo: Nombre,  información de contacto como  
+                                su dirección de correo electrónica e información demográfica. Así mismo cuando sea necesario podrá ser 
+                                requerida información específica para procesar algún pedido o realizar una entrega o facturación.
+                            </p>
+                            <h4>Uso de la información recogida</h4>
+                            <p>
+                                Nuestro sitio web emplea la información con el fin de proporcionar el mejor servicio posible, particularmente
+                                para mantener un registro de usuarios, de pedidos en caso que aplique, y mejorar nuestros productos y 
+                                servicios.  Es posible que sean enviados correos electrónicos periódicamente a través de nuestro sitio con 
+                                ofertas especiales, nuevos productos y otra información publicitaria que consideremos relevante para usted o
+                                que pueda brindarle algún beneficio, estos correos electrónicos serán enviados a la dirección que usted
+                                proporcione y podrán ser cancelados en cualquier momento.
+                                <br>
+                                Rapi Burger está altamente comprometido para cumplir con el compromiso de mantener su información
+                                segura. Usamos los sistemas más avanzados y los actualizamos constantemente para asegurarnos que no exista
+                                ningún acceso no autorizado.
+                            </p>
+                            <h4>Cookies</h4>
+                            <p>
+                                Nuestro sitio web emplea las cookies para poder identificar las páginas que son visitadas y su funcionalidad.
+                                Esta información es empleada únicamente para análisis estadístico o almacenamiento temporal para el pago
+                                después la información se elimina de forma permanente. Usted puede eliminar las cookies en cualquier
+                                momento desde su ordenador. Sin embargo las cookies ayudan a proporcionar un mejor servicio de los sitios web, 
+                                estás no dan acceso a información de su ordenador ni de usted, a menos de que usted así lo quiera y la proporcione
+                                directamente. Usted puede aceptar o negar el uso de cookies, sin embargo la mayoría de navegadores aceptan cookies
+                                automáticamente pues sirve para tener un mejor servicio web. También usted puede cambiar la configuración de su
+                                ordenador para declinar las cookies. Si se declinan es posible que no pueda utilizar algunos de nuestros servicios.
+                            </p>
+                            <h4>Enlaces a Terceros</h4>
+                            <p>
+                                Este sitio web pudiera contener en laces a otros sitios que pudieran ser de su interés. Una vez que usted de
+                                clic en estos enlaces y abandone nuestra página, ya no tenemos control sobre al sitio al que es redirigido
+                                y por lo tanto no somos responsables de los términos o privacidad ni de la protección de sus datos en esos 
+                                otros sitios terceros. Dichos sitios están sujetos a sus propias políticas de privacidad por lo cual es 
+                                recomendable que los consulte para confirmar que usted está de acuerdo con estas.    
+                            </p>
+                            <h4>Control de su información personal</h4>
+                            <p>
+                                Esta compañía no venderá, cederá ni distribuirá la información personal que es recopilada sin su consentimiento,
+                                salvo que sea requerido por un juez con un orden judicial. <br> <br>
+                                Rapi Burger Se reserva el derecho de cambiar los términos de la presente Política de Privacidad 
+                                en cualquier momento.    
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
-
             <!-- Footer -->
             <footer>
                 <!-- Container -->
                 <div class="container">
                     <div class="row">
+
                         <div class="col-lg-3 col-sm-4 col-xs-12 col-lg-offset-1 pull-right">
                             <div class="subscribe">
                                 <h4>¿Tienes alguna duda?</h4>
@@ -173,17 +170,20 @@
                                 <p>Revisa el <a href="">Libro de Reclamaciones</a></p>
                             </div>
                         </div>
+
                         <div class="col-lg-3 col-sm-4 col-xs-12 col-lg-offset-1 pull-right">
                             <div class="contact_us">
                                 <h4>Contáctanos</h4>
                                 <a href="">rapiburguer@gmail.com</a>
                                 <a href="">LLamanos : 954588927</a>
                                 <address>
+
                                     Calle lima 919, Ica<br />
                                     Perú<br />
                                 </address>
                             </div>
                         </div>
+
                         <div class="col-lg-4 col-sm-4 col-xs-12 pull-right">
                             <div class="basic_info">
                                 <a href=""><img class="footer_logo" src="https://i.imgur.com/PkQL0lh.png" alt="Burger" /></a>

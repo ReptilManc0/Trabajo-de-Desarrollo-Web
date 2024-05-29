@@ -37,6 +37,16 @@ public class controllerview2test {
             return "reservas";
             }
 
+            @GetMapping(path={"/consultas"})
+            public String consultas(){
+            return "consultas";
+            }
+            
+            @GetMapping(path={"/terminos-condiciones"})
+            public String terminosCondiciones(){
+            return "terminos-condiciones";
+            }
+            
              @GetMapping(path={"/Nosotros"})
             public String Nosotros(){
             return "Nosotros";

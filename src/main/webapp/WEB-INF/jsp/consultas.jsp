@@ -1,6 +1,6 @@
 <%-- 
-    Document   : reservas
-    Created on : 28 may. 2024, 11:58:35
+    Document   : consultas
+    Created on : 28 may. 2024, 16:39:19
     Author     : diego
 --%>
 
@@ -8,8 +8,8 @@
     <!DOCTYPE html>
     <html>
         <head>
-            <meta charset="utf-8">
-            <title>Reserva Online</title>
+            <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+            <title>Formulario de Consultas</title>
             <!-- Mobile Specific Meta -->
             <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
             <!-- Stylesheets -->
@@ -59,12 +59,12 @@
                         <h6 class="title">Menu</h6>
                         <ul class="link">
                             <li><a href="/burger/index">Inicio</a></li>
-                            <li><a href="/burger/login">Iniciar Sesion</a></li>
-                            <li><a href="/burger/menu">Menu</a></li>
-                            <li><a href="/burger/Nosotros">Nosotros</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Portfolio</a></li>
-                            <li><a href="#">Contacto</a></li>
+                        <li><a href="/burger/login">Iniciar Sesion</a></li>
+                        <li><a href="/burger/menu">Menu</a></li>
+                        <li><a href="/burger/Nosotros">Nosotros</a></li>
+                        <li><a href="/burger/consultas">Consultas</a></li>
+                        <li><a href="/burger/reservas">Reservas</a></li>
+                        <li><a href="#">Contacto</a></li>
                         </ul>
                     </div>
                 </div>
@@ -78,87 +78,91 @@
                     <div class="row">
                         <div class="col-md-8 col-md-offset-2">
                             <div class="banner">
-                                <h1>Reservas</h1>
+                                <h1>Consultas</h1>
                             </div>
                         </div>
                     </div>
                 </div><!-- Container end -->
             </header><!-- Header end -->
 
-            <!-- Reservas Section -->
+            <!-<!-- Container Formulario -->
+            <style>
+                #Form-Consultas {
+                    color: black;
+                    margin-top: 10%;
+                }
+            </style>
             <div class="container">
                 <div class="row">
-                    <!-- Formulario de Reservas -->
-                    <style>
-                        #DatosReserva {
-                            color:black;
-                            margin-top: 10%;
-                        }
-                    </style>
-                    <div class="col-md-6" id="DatosReserva">
-                        <h2>Datos</h2>
-                        <form>
+                    <div class="col-md-8 col-md-offset-2" id="Form-Consultas">
+                        <form action="https://formspree.io/f/xvoenjba" method="POST">
+                            <h2>Formulario de Consultas</h2>
                             <div class="form-group">
-                                <label for="txtDistritoReserva">Distrito</label>
-                                <input type="text" class="form-control" id="txtDistritoReserva" placeholder="Ingrese Distrito">
+                                <label for="txtDNIConsulta">Nro DNI</label>
+                                <input name="DNI" type="text" class="form-control" id="txtDNIConsulta" placeholder="Ingrese su documento">
                             </div>
                             <div class="form-group">
-                                <label for="txtTelfReserva">Teléfono</label>
-                                <input type="tel" class="form-control" id="txtTelfReserva" placeholder="Ingrese Teléfono">
+                                <label for="txtNombreConsulta">Nombres Completos *</label>
+                                <input type="text" class="form-control" id="txtNombreConsulta" placeholder="Ingrese sus nombres" required name="NombresCompletos">
                             </div>
                             <div class="form-group">
-                                <label for="txtFechaHoraReserva">*Fecha/Hora</label>
-                                <input type="datetime-local" class="form-control" id="txtFechaHoraReserva">
+                                <label for="txtDepartamento">Departamento</label>
+                                <select id="txtDepartamento" class="form-control" name="Departamento">
+                                    <!-- Esto tiene que ir vinculado a la base de datos o, según veamos 
+                                      conveniente que sea solo Ica --> 
+                                    <option selected>Amazonas</option>
+                                    <option selected>Áncash</option>
+                                    <option selected>Apurímac</option>
+                                    <option selected>Arequipa</option>
+                                    <option selected>Ayacucho</option>
+                                    <option selected>Cajamarca</option>
+                                    <option selected>Cuzco</option>
+                                    <option selected>Ica</option>
+                                    <option selected>Lima</option>
+                                </select>
+                            </div>
+                            <!--<div class="form-group col-md-4">
+                                <label for="txtProvincia">Provincia</label>
+                                <select id="txtProvincia" class="form-control">
+                                    <option selected>Ica</option>
+                                    
+                                </select>
+                            </div>
+                            <div class="form-group col-md-4">
+                                <label for="txtDistrito">Distrito</label>
+                                <select id="txtDistrito" class="form-control">
+                                    <option selected>Ica</option>
+                                    
+                                </select>
+                            </div>-->
+                            <div class="form-group">
+                                <label for="txtTelfConsulta">Teléfono *</label>
+                                <input type="text" class="form-control" id="txtTelfConsulta" placeholder="Ingrese su teléfono" name="Telefono" required>
                             </div>
                             <div class="form-group">
-                                <label for="txtCantidadPersonasReserva">Cantidad de Personas</label>
-                                <input type="number"  class="form-control" id="txtCantidadPersonasReserva" min="2" max="8" placeholder="Ingrese Cantidad de Personas" required>
+                                <label for="txtCorreoConsulta">Correo electrónico *</label>
+                                <input type="email" class="form-control" id="txtCorreoConsulta" placeholder="Ingrese su correo" name="CorreoConsulta" required>
                             </div>
                             <div class="form-group">
-                                <label for="motivoReserva">*Motivo de la reserva</label>
-                                <textarea class="form-control" id="motivoReserva" placeholder="Ingrese Motivo"></textarea>
+                                <label for="txtTituloConsulta">Título de la consulta *</label>
+                                <input type="text" class="form-control" id="txtTituloConsulta" name="TituloConsulta" placeholder="Ingrese el título de la consulta" required>
                             </div>
                             <div class="form-group">
-                                <label for="comentarioReserva">Comentario</label>
-                                <textarea class="form-control" id="comentarioReserva" placeholder="Ingrese Comentario"></textarea>
+                                <label for="txtCuerpoConsulta">Consulta</label>
+                                <textarea class="form-control" id="txtCuerpoConsulta" name="CuerpoConsulta" rows="4" placeholder="Ingrese su mensaje"></textarea>
                             </div>
-                            <div class="checkbox">
-                                <label>
-                                    <input type="checkbox"> He leído y acepto los Términos y condiciones de Rapi Burger.
-                                </label>
+                            <div class="form-group">
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox"> He leído y acepto los Términos y condiciones de Rapi Burger.
+                                    </label>
+                                </div>
                             </div>
                             <button type="submit" class="btn btn-primary">Enviar</button>
                         </form>
                     </div>
-
-                    <!-- Bloque derecho "Importante" -->
-                    <style>
-                        #importante {
-                            color:black;
-                            margin-top: 10%;
-                        }
-                    </style>
-                    <div class="col-md-6" id="importante">
-                        <h2>¡IMPORTANTE!</h2>
-                        <p>Antes de solicitar una reserva debes tener en cuenta los siguientes términos y condiciones:</p>
-                        <ol>
-                            <li>La reserva deberá realizarse con al menos <strong>24 horas</strong> de anticipación.</li>
-                            <li>Las reservas se tomarán en los siguientes días: <br>
-                                <strong>De lunes a sábado</strong>
-                            </li>
-                            <li>No se agendarán reservas para los días domingos.</li>
-                            <li>Máximo por mesa entran <strong>8 personas</strong>.</li>
-                            <li>El número mínimo de personas para reservar es el siguiente: <br>
-                                De lunes a viernes: de 2 a más personas. 
-                                Se pueden aplicar las cortesías en base al motivo y número de personas.
-                            </li>
-                            <li><strong>La tolerancia de tiempo de la mesa reservada es de 20 minutos</strong>, si no se presenta en ese lapso de tiempo, automáticamente pierde la reserva.</li>
-                        </ol>
-                        <img src="https://i.imgur.com/PkQL0lh.png" class="img-responsive" alt="Reserva">
-                    </div>
                 </div>
             </div>
-
             <!-- Footer -->
             <footer>
                 <!-- Container -->
@@ -229,4 +233,5 @@
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
         </body>
     </html>
+
 </f:view>
