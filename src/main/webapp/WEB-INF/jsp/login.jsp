@@ -90,7 +90,7 @@
                         <div class="row justify-content-center">
                             <div class="col-xl-5 col-md-8">
 
-                                <form class="bg-white rounded shadow-5-strong p-5">
+                                <form class="bg-white rounded shadow-5-strong p-5" action="/burger/index">
                                     <div class="text-center mb-3">
                                         <div class="text-left mb-3"> <a href="/burger/index"><img src="https://i.imgur.com/PkQL0lh.png" style="width: 80px"></a></div>
                                         <p class="text-dark">Ingrese sus datos</p>
