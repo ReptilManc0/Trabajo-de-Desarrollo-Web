@@ -12,6 +12,21 @@
     <link href="/css/color.css" rel="stylesheet" type="text/css"/>
     <link href="/css/custom.css" rel="stylesheet" type="text/css"/>
     <link href="/css/btnWsp.css" rel="stylesheet" type="text/css"/>
+    <link rel="icon" href="/https://i.imgur.com/PkQL0lh.png" type="image/png">
+    
+    <!-- Stylesheets -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+        <link href="/css/flaticon.css" rel="stylesheet" type="text/css"/>
+
+        <!-- Animate -->
+        <link href="/css/animate.css" rel="stylesheet" type="text/css"/>
+        <!-- Bootsnav -->
+        <link href="/css/bootsnav.css" rel="stylesheet" type="text/css"/>
+        <!-- Color style -->
+        <link href="/css/color.css" rel="stylesheet" type="text/css"/>
+        <!-- Custom stylesheet -->
+        <link href="/css/custom.css" rel="stylesheet" type="text/css"/>
     <script src="https://kit.fontawesome.com/233c0f00ee.js" crossorigin="anonymous"></script>
     <style>
         .section {
@@ -41,6 +56,42 @@
     </style>
 </head>
 <body>
+    <!-- Navbar -->
+        <nav class="navbar navbar-default bootsnav no-background navbar-fixed black">
+            <div class="container">  
+
+                <!-- Start Atribute Navigation -->
+                <div class="attr-nav">
+                    <ul>
+                        <li class="side-menu"><a href="#"><i class="fa fa-bars"></i></a></li>
+                    </ul>
+                </div>        
+                <!-- End Atribute Navigation -->
+
+                <!-- Start Header Navigation -->
+            
+                <!-- End Header Navigation -->
+            </div>   
+
+            <!-- Start Side Menu -->
+            <div class="side">
+                <a href="#" class="close-side"><i class="fa fa-times"></i></a>
+                <div class="widget">
+                    <h6 class="title">Menu</h6>
+                    <ul class="link">
+                        <li><a href="/burger/index">Inicio</a></li>
+                        <li><a href="/burger/login">Iniciar Sesion</a></li>
+                        <li><a href="/burger/menu">Menu</a></li>
+                        <li><a href="/burger/Nosotros">Nosotros</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- End Side Menu -->
+        </nav>
+    
     <header id="hello">
         <div class="container">
             <div class="row">
@@ -52,9 +103,6 @@
                             <div class="banner_content">
                                 <p></p>
                                 <p></p>							
-                            </div>
-                            <div class="stamp">
-                                <img src="/images/stamp.png" alt="" />
                             </div>
                         </div>
                     </div>
@@ -114,6 +162,12 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+    <!-- JavaScript -->
+        <script src="http://code.jquery.com/jquery-1.12.1.min.js"></script>		
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <!-- Bootsnav js -->
+        <script src="/js/bootsnav.js"></script>
 </body>
 </html>
 </f:view>
