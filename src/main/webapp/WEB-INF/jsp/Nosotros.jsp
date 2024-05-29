@@ -12,6 +12,7 @@
     <link href="/css/color.css" rel="stylesheet" type="text/css"/>
     <link href="/css/custom.css" rel="stylesheet" type="text/css"/>
     <link href="/css/btnWsp.css" rel="stylesheet" type="text/css"/>
+    <link rel="icon" href="/https://i.imgur.com/PkQL0lh.png" type="image/png">
     
     <!-- Stylesheets -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
@@ -68,9 +69,7 @@
                 <!-- End Atribute Navigation -->
 
                 <!-- Start Header Navigation -->
-                <div class="navbar-header">
-                    <a class="navbar-brand" href="#"><img src="https://i.imgur.com/PkQL0lh.png" class="logo" alt=""></a>
-                </div>
+            
                 <!-- End Header Navigation -->
             </div>   
 
