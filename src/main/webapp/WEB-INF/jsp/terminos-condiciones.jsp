@@ -87,7 +87,7 @@
 
             <!-<!-- Container Formulario -->
             <style>
-                #tem-conditions {
+                #term-conditions {
                     color: black;
                     margin-top: 10%;
                 }
@@ -106,13 +106,13 @@
                                 actualizada por lo que le recomendamos y enfatizamos revisar continuamente esta página para asegurarse que 
                                 está de acuerdo con dichos cambios.
                             </p>
-                            <h4><strong>Información que es recogida</strong></h4>
+                            <h4>Información que es recogida</h4>
                             <p>
                                 Nuestro sitio web podrá recoger información personal por ejemplo: Nombre,  información de contacto como  
                                 su dirección de correo electrónica e información demográfica. Así mismo cuando sea necesario podrá ser 
                                 requerida información específica para procesar algún pedido o realizar una entrega o facturación.
                             </p>
-                            <h4><strong>Uso de la información recogida</strong></h4>
+                            <h4>Uso de la información recogida</h4>
                             <p>
                                 Nuestro sitio web emplea la información con el fin de proporcionar el mejor servicio posible, particularmente
                                 para mantener un registro de usuarios, de pedidos en caso que aplique, y mejorar nuestros productos y 
@@ -125,7 +125,7 @@
                                 segura. Usamos los sistemas más avanzados y los actualizamos constantemente para asegurarnos que no exista
                                 ningún acceso no autorizado.
                             </p>
-                            <h4 ><strong>Cookies</strong></h4>
+                            <h4>Cookies</h4>
                             <p>
                                 Nuestro sitio web emplea las cookies para poder identificar las páginas que son visitadas y su funcionalidad.
                                 Esta información es empleada únicamente para análisis estadístico o almacenamiento temporal para el pago
@@ -136,7 +136,7 @@
                                 automáticamente pues sirve para tener un mejor servicio web. También usted puede cambiar la configuración de su
                                 ordenador para declinar las cookies. Si se declinan es posible que no pueda utilizar algunos de nuestros servicios.
                             </p>
-                            <h4><strong>Enlaces a Terceros</strong></h4>
+                            <h4>Enlaces a Terceros</h4>
                             <p>
                                 Este sitio web pudiera contener en laces a otros sitios que pudieran ser de su interés. Una vez que usted de
                                 clic en estos enlaces y abandone nuestra página, ya no tenemos control sobre al sitio al que es redirigido
@@ -144,7 +144,7 @@
                                 otros sitios terceros. Dichos sitios están sujetos a sus propias políticas de privacidad por lo cual es 
                                 recomendable que los consulte para confirmar que usted está de acuerdo con estas.    
                             </p>
-                            <h4><strong>Control de su información personal</strong></h4>
+                            <h4>Control de su información personal</h4>
                             <p>
                                 Esta compañía no venderá, cederá ni distribuirá la información personal que es recopilada sin su consentimiento,
                                 salvo que sea requerido por un juez con un orden judicial. <br> <br>
@@ -154,74 +154,79 @@
                         </div>
                     </div>
                 </div>
-                <!-- Footer -->
-                <footer>
-                    <!-- Container -->
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-3 col-sm-4 col-xs-12 col-lg-offset-1 pull-right">
-                                <div class="subscribe">
-                                    <h4>¿Tienes alguna duda?</h4>
-                                    <p>Ingresa al <a href="">Apartado de consultas</a></p>
+            </div>
+            <!-- Footer -->
+            <footer>
+                <!-- Container -->
+                <div class="container">
+                    <div class="row">
 
-                                    <h4>¿Tienes alguna queja?</h4>
-                                    <p>Revisa el <a href="">Libro de Reclamaciones</a></p>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-sm-4 col-xs-12 col-lg-offset-1 pull-right">
-                                <div class="contact_us">
-                                    <h4>Contáctanos</h4>
-                                    <a href="">rapiburguer@gmail.com</a>
-                                    <a href="">LLamanos : 954588927</a>
-                                    <address>
-                                        Calle lima 919, Ica<br />
-                                        Perú<br />
-                                    </address>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-sm-4 col-xs-12 pull-right">
-                                <div class="basic_info">
-                                    <a href=""><img class="footer_logo" src="https://i.imgur.com/PkQL0lh.png" alt="Burger" /></a>
+                        <div class="col-lg-3 col-sm-4 col-xs-12 col-lg-offset-1 pull-right">
+                            <div class="subscribe">
+                                <h4>¿Tienes alguna duda?</h4>
+                                <p>Ingresa al <a href="">Apartado de consultas</a></p>
 
-                                    <ul class="list-inline social">
-                                        <li><a href="" class="fa fa-facebook"></a></li>
-                                        <li><a href="https://wa.me/51947190888" target="_blank" class="fa-brands fa-whatsapp"></a></li>
-                                        <li><a href="" class="fa fa-instagram"></a></li>
-                                    </ul>
-
-                                    <div class="footer-copyright">
-                                        <p class="wow fadeInRight" data-wow-duration="1s">
-                                            © 2024 Copyright:
-                                            <a class="text-dark" href="">RapidBurger</a>
-                                        </p>
-                                    </div>					
-                                </div>
+                                <h4>¿Tienes alguna queja?</h4>
+                                <p>Revisa el <a href="">Libro de Reclamaciones</a></p>
                             </div>
                         </div>
-                    </div><!-- Container end -->
-                </footer><!-- Footer end -->
 
-                <!-- JavaScript -->
-                <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.2.0/mdb.umd.min.js"></script>
-                <script src="http://code.jquery.com/jquery-1.12.1.min.js"></script>		
-                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+                        <div class="col-lg-3 col-sm-4 col-xs-12 col-lg-offset-1 pull-right">
+                            <div class="contact_us">
+                                <h4>Contáctanos</h4>
+                                <a href="">rapiburguer@gmail.com</a>
+                                <a href="">LLamanos : 954588927</a>
+                                <address>
 
-                <!-- Bootsnav js -->
-                <script src="/js/bootsnav.js" type="text/javascript"></script>
+                                    Calle lima 919, Ica<br />
+                                    Perú<br />
+                                </address>
+                            </div>
+                        </div>
 
-                <!--main js-->
-                <script src="/js/main.js" type="text/javascript"></script>
+                        <div class="col-lg-4 col-sm-4 col-xs-12 pull-right">
+                            <div class="basic_info">
+                                <a href=""><img class="footer_logo" src="https://i.imgur.com/PkQL0lh.png" alt="Burger" /></a>
 
-                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+                                <ul class="list-inline social">
+                                    <li><a href="" class="fa fa-facebook"></a></li>
+                                    <li><a href="https://wa.me/51947190888" target="_blank" class="fa-brands fa-whatsapp"></a></li>
+                                    <li><a href="" class="fa fa-instagram"></a></li>
+                                </ul>
 
-                <!--WhatsApp API-->
-                <a href="https://api.whatsapp.com/send?phone=947190888" class="btn-wsp" target="_blank">
-                    <i class="fa-brands fa-whatsapp"></i>
-                        </a>
-                <!-- MDB -->
-                <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.2.0/mdb.umd.min.js"></script>
-                <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
-                <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+                                <div class="footer-copyright">
+                                    <p class="wow fadeInRight" data-wow-duration="1s">
+                                        © 2024 Copyright:
+                                        <a class="text-dark" href="">RapidBurger</a>
+                                    </p>
+                                </div>					
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- Container end -->
+            </footer><!-- Footer end -->
+
+            <!-- JavaScript -->
+            <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.2.0/mdb.umd.min.js"></script>
+            <script src="http://code.jquery.com/jquery-1.12.1.min.js"></script>		
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+            <!-- Bootsnav js -->
+            <script src="/js/bootsnav.js" type="text/javascript"></script>
+
+            <!--main js-->
+            <script src="/js/main.js" type="text/javascript"></script>
+
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+            <!--WhatsApp API-->
+            <a href="https://api.whatsapp.com/send?phone=947190888" class="btn-wsp" target="_blank">
+                <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+            <!-- MDB -->
+            <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.2.0/mdb.umd.min.js"></script>
+            <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
         </body>
     </html>
 </f:view>
