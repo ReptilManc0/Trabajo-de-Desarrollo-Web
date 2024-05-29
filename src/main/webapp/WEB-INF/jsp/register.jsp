@@ -95,7 +95,7 @@
                                         <label class="form-label" for="txtApellidos">Apellidos </label>
                                     </div>
                                     <div class="form-outline mb-4" data-mdb-input-init>
-                                        <input type="text" id="txtTeléfono" class="form-control" />
+                                        <input type="number" id="txtTeléfono" class="form-control" />
                                         <label class="form-label" for="txtTeléfono">Telefono</label>
                                     </div>
                                     <div class="form-outline mb-4" data-mdb-input-init>
