@@ -16,7 +16,9 @@
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
             <link href="/css/flaticon.css" rel="stylesheet" type="text/css"/>
-
+            
+            <!--SweetAlert para los Modal-->
+            <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
             <!-- Animate -->
             <link href="/css/animate.css" rel="stylesheet" type="text/css"/>
             <!-- Bootsnav -->
@@ -94,7 +96,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2" id="Form-Consultas">
-                        <form action="https://formspree.io/f/xvoenjba" method="POST">
+                        <form action="https://formspree.io/f/xvoenjba"  id="consultaForm" method="POST">
                             <h2>Formulario de Consultas</h2>
                             <div class="form-group">
                                 <label for="txtNombreConsulta">Nombres Completos *</label>
@@ -149,7 +151,7 @@
                             <div class="form-group">
                                 <div class="checkbox">
                                     <label>
-                                        <input type="checkbox"> He leído y acepto los Términos y condiciones de Rapi Burger.
+                                        <input type="checkbox"> He leído y acepto los Términos y condiciones de Rapi Burguer.
                                     </label>
                                 </div>
                             </div>
@@ -196,7 +198,7 @@
                                 <div class="footer-copyright">
                                     <p class="wow fadeInRight" data-wow-duration="1s">
                                         © 2024 Copyright:
-                                        <a class="text-dark" href="">RapidBurger</a>
+                                        <a class="text-dark" href="">RapidBurguer</a>
                                     </p>
                                 </div>					
                             </div>
@@ -226,6 +228,17 @@
             <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.2.0/mdb.umd.min.js"></script>
             <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+            <script type="text/javascript">
+            document.getElementById('consultaForm').addEventListener('submit', function(event) {
+                event.preventDefault();
+                Swal.fire({
+                    title: 'Consulta Enviada',
+                    text: 'Tu consulta ha sido enviada exitosamente.',
+                    icon: 'success',
+                    confirmButtonText: 'Aceptar'
+                });
+            });
+        </script>
         </body>
     </html>
 
