@@ -1,5 +1,6 @@
-<!--SweetAlert para loa Modal-->
-        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+import Swal from 'sweetalert2'
+
         
 function validarFormulario() {
   var emailCliente = document.getElementById('emailCliente').value;
@@ -15,4 +16,5 @@ function validarFormulario() {
       timer: 1500
     });
     return false; 
+  }
   }
