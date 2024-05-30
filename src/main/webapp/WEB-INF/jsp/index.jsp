@@ -124,7 +124,7 @@
                                     <img src="images/chicken.png" alt=""/>
                                 </div>
 
-                                <h2>Rapi Burger </h2>
+                                <h2>Rapi Burguer </h2>
                                 <p>Nacimos para satisfacer a los clientes con la perculiaridad de tener buena calidad y ser los más rapido al servicio del cliente</p>
                             </div>
                         </div>
@@ -317,7 +317,7 @@
                             <div class="footer-copyright">
                                 <p class="wow fadeInRight" data-wow-duration="1s">
                                      © 2024 Copyright:
-                                <a class="text-dark" href="">RapidBurger</a>
+                                <a class="text-dark" href="">RapidBurguer</a>
                                 </p>
                             </div>					
                         </div>

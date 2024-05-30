@@ -175,7 +175,7 @@
                         <div class="footer-copyright">
                             <p class="wow fadeInRight" data-wow-duration="1s">
                                 © 2024 Copyright:
-                                <a class="text-dark" href="">RapidBurger</a>
+                                <a class="text-dark" href="">RapidBurguer</a>
                             </p>
                         </div>					
                     </div>

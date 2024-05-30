@@ -95,7 +95,7 @@
                     <div class="row">
                         <div class="col-md-8 col-md-offset-2">
                             <div class="banner">
-                                <h1>Rapi BURGER</h1>
+                                <h1>Rapi Burguer</h1>
                                 <center><p>¡La mejor experiencia gastronómica en comida rápida!</p></center>
                                 <div class="inner_banner">
                                     <div class="banner_content">

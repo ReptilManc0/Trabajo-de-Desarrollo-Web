@@ -87,24 +87,24 @@
                                     </div>
                                     <!-- Email input -->
                                     <div class="form-outline mb-4" data-mdb-input-init>
-                                        <input type="text" id="txtNombres" class="form-control" />
+                                        <input type="text" id="txtNombres" class="form-control" required />
                                         <label class="form-label" for="txtNombres">Nombres</label>
                                     </div>
                                     <div class="form-outline mb-4" data-mdb-input-init>
-                                        <input type="text" id="txtApellidos" class="form-control" />
+                                        <input type="text" id="txtApellidos" class="form-control" required/>
                                         <label class="form-label" for="txtApellidos">Apellidos </label>
                                     </div>
                                     <div class="form-outline mb-4" data-mdb-input-init>
-                                        <input type="number" id="txtTeléfono" class="form-control" />
+                                        <input type="number" id="txtTeléfono" class="form-control" required/>
                                         <label class="form-label" for="txtTeléfono">Telefono</label>
                                     </div>
                                     <div class="form-outline mb-4" data-mdb-input-init>
-                                        <input type="email" id="txtCorreo" class="form-control" />
+                                        <input type="email" id="txtCorreo" class="form-control" required/>
                                         <label class="form-label" for="txtCorreo">Correo</label>
                                     </div>
                                     <!-- Password input -->
                                     <div class="form-outline mb-4" data-mdb-input-init>
-                                        <input type="password" id="txtContrasenia" class="form-control" />
+                                        <input type="password" id="txtContrasenia" class="form-control" required/>
                                         <label class="form-label" for="txtContrasenia">Contraseña</label>
                                     </div>
 
@@ -118,7 +118,7 @@
                                         </ul>
                                     </div>
                                     <div class="form-outline mb-4" data-mdb-input-init>
-                                        <input type="password" id="txtComprobarContrasenia" class="form-control" />
+                                        <input type="password" id="txtComprobarContrasenia" class="form-control" required/>
                                         <label class="form-label" for="txtComprobarContrasenia">Repite La Contraseña</label>
                                        
                                     </div>
