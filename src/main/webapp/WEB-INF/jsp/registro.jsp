@@ -1,5 +1,5 @@
 <%-- 
-    Document   : login
+    Document   : registro
     Created on : 27 may. 2024, 12:07:17
     Author     : Cesar
 --%>
@@ -16,7 +16,7 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta http-equiv="x-ua-compatible" content="ie=edge" />
-        <title>Iniciar Sesión</title>
+        <title>Iniciar Sesion</title>
         <!-- Font Awesome -->
         <link
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
@@ -95,8 +95,8 @@
                                         <label class="form-label" for="txtApellidos">Apellidos </label>
                                     </div>
                                     <div class="form-outline mb-4" data-mdb-input-init>
-                                        <input type="text" id="txtTeléfono" class="form-control" />
-                                        <label class="form-label" for="txtTeléfono">Teléfono</label>
+                                        <input type="text" id="txtTelï¿½fono" class="form-control" />
+                                        <label class="form-label" for="txtTelï¿½fono">Teléfono</label>
                                     </div>
                                     <div class="form-outline mb-4" data-mdb-input-init>
                                         <input type="email" id="txtCorreo" class="form-control" />
@@ -104,8 +104,8 @@
                                     </div>
                                     <!-- Password input -->
                                     <div class="form-outline mb-4" data-mdb-input-init>
-                                        <input type="password" id="txtContraseña" class="form-control" />
-                                        <label class="form-label" for="txtContraseña">Contraseña</label>
+                                        <input type="password" id="txtContraseï¿½a" class="form-control" />
+                                        <label class="form-label" for="txtContraseï¿½a">Contraseña</label>
                                     </div>
 
                                     <button type="submit" class="btn btn-danger btn-block" data-mdb-ripple-init>Registrate</button>
@@ -179,7 +179,7 @@
                         <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
                             <!-- Links -->
                             <h6 class="text-uppercase fw-bold mb-4">Contáctanos</h6>
-                            <p><i class="fas fa-home me-3"></i> Calle lima 919, Ica, Perú<br />
+                            <p><i class="fas fa-home me-3"></i> Calle lima 919, Ica, Perï¿½<br />
                                 
                             <p>
                                 <i class="fas fa-envelope me-3"></i>
@@ -212,7 +212,7 @@
 
             <!-- Copyright -->
             <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-                © 2021 Copyright:
+                ¿ 2021 Copyright:
                 <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
             </div>
             <!-- Copyright -->
