@@ -150,7 +150,7 @@
 
                             <div class="overlay">
                                 <h3>La Clásica</h3>
-                                <p>(served in a grilled rosemary focaccia).</p>
+                                <p>(simple pero llenadora).</p>
 
                                 <p class="overlay_content">El contenido de este plato es: Hamburguesa de la Casa, con Huevo frito y Papás al Hilo</p>
                             </div>
@@ -166,7 +166,7 @@
                                 <li data-target="#small_carousel" data-slide-to="1"></li>
                                 <li data-target="#small_carousel" data-slide-to="2"></li>
                             </ol>
-
+                              <div class="overlay"> 
                             <div class="carousel-caption">
                                 <h3>The Original Burger</h3>
                                 <hr />
@@ -180,7 +180,7 @@
                                     <a href="" class="info_btn">info & nutrition</a>
                                 </div>
                             </div>
-
+                        </div>
                             <!-- carousel inner -->
                             <div class="carousel-inner" role="listbox">
                                 <div class="item active">
