@@ -124,7 +124,7 @@
                                 </div>
 
                                 <h2>Rapi Burguer </h2>
-                                <p>Nacimos para satisfacer a los clientes con la perculiaridad de tener buena calidad y ser los más rapido al servicio del cliente</p>
+                                <p>Nacimos para satisfacer a los clientes con la peculiaridad de tener buena calidad y ser los más rapido al servicio del cliente</p>
                             </div>
                         </div>
                     </div>
@@ -132,10 +132,10 @@
                         <div class="signature">
                             <div class="shape">
                                 <span class="flaticon flaticon-burger"></span>
-                                <p>signature</p>
+                                <p>Lema</p>
                             </div>
                             <div class="signature_content">
-                                <p>It used to be a Secret but not any more! Our tribute to the King is a Cheddar Beef Patty,</p>
+                                <p>"Donde la calidad y el sabor se encuentran en cada bocado."</p>
                             </div>
                         </div>
                     </div>
@@ -306,9 +306,9 @@
                             <a href=""><img class="footer_logo" src="https://i.imgur.com/PkQL0lh.png" alt="Burger" /></a>
 
                             <ul class="list-inline social">
-                                <li><a href="https://www.facebook.com/profile.php?id=61560438118127" class="fa fa-facebook"></a></li>
+                                <li><a href="https://www.facebook.com/profile.php?id=61560438118127" class="fa fa-facebook" target="_blank"></a></li>
                                 <li><a href="https://wa.me/51947190888" target="_blank" class="fa-brands fa-whatsapp"></a></li>
-                                <li><a href="" class="fa fa-instagram"></a></li>
+                                <li><a href="https://www.instagram.com/rapiburguer.tucomidafavorita?utm_source=qr&igsh=azRsd3JsNm9nejc0" target="_blank" class="fa fa-instagram"></a></li>
                             </ul>
 
                             <div class="footer-copyright">
