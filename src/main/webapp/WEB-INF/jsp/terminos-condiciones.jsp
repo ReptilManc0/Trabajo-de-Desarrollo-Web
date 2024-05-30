@@ -64,7 +64,6 @@
                             <li><a href="/burger/Nosotros">Nosotros</a></li>
                             <li><a href="/burger/consultas">Consultas</a></li>
                             <li><a href="/burger/reservas">Reservas</a></li>
-                            <li><a href="#">Contacto</a></li>
                         </ul>
                     </div>
                 </div>

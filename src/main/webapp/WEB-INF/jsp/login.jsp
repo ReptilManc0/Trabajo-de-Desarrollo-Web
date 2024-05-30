@@ -153,7 +153,9 @@
             src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.3.0/mdb.umd.min.js"
         ></script>
 
+
         <script src="/js/validarLogin.js" type="text/javascript"></script>
+
     </body>
     <footer class="text-center text-lg-start  text-white " style="background-color:#454646">
         <div class="py-4 text-center">
