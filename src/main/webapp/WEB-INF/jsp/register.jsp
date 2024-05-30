@@ -16,7 +16,7 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta http-equiv="x-ua-compatible" content="ie=edge" />
-        <title>Iniciar Sesiï¿½n</title>
+        <title>Iniciar Sesion</title>
         <!-- Font Awesome -->
         <link
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
@@ -96,7 +96,7 @@
                                     </div>
                                     <div class="form-outline mb-4" data-mdb-input-init>
                                         <input type="text" id="txtTelï¿½fono" class="form-control" />
-                                        <label class="form-label" for="txtTelï¿½fono">Telï¿½fono</label>
+                                        <label class="form-label" for="txtTelï¿½fono">Teléfono</label>
                                     </div>
                                     <div class="form-outline mb-4" data-mdb-input-init>
                                         <input type="email" id="txtCorreo" class="form-control" />
@@ -105,18 +105,18 @@
                                     <!-- Password input -->
                                     <div class="form-outline mb-4" data-mdb-input-init>
                                         <input type="password" id="txtContraseï¿½a" class="form-control" />
-                                        <label class="form-label" for="txtContraseï¿½a">Contraseï¿½a</label>
+                                        <label class="form-label" for="txtContraseï¿½a">Contraseña</label>
                                     </div>
 
                                     <button type="submit" class="btn btn-danger btn-block" data-mdb-ripple-init>Registrate</button>
                                 </form>
                                 <div class="py-4 text-center">
                                     <div class="col text-center">
-                                        ï¿½Ya tienes cuenta?
+                                        ¿Ya tienes cuenta?
                                     </div>
                                     <a role="button" class="btn btn-danger btn-lg m-2" data-mdb-ripple-init
                                        href="/burger/login" rel="nofollow" >
-                                        Iniciar Sesiï¿½n
+                                        Iniciar Sesion
                                     </a>
 
                                 </div>
