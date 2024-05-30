@@ -98,7 +98,7 @@
                         <div class="terms-conditions">
                             <h2><strong>POLÍTICA DE PRIVACIDAD</strong></h2>
                             <p>
-                                La presente Política de Privacidad establece los términos en que Rapi Burger usa y protege la 
+                                La presente Política de Privacidad establece los términos en que Rapi Burguer usa y protege la 
                                 información que es proporcionada por sus usuarios al momento de utilizar su sitio web. Esta compañía está 
                                 comprometida con la seguridad de los datos de sus usuarios. Cuando le pedimos llenar los campos de información
                                 personal con la cual usted pueda ser identificado, lo hacemos asegurando que sólo se empleará de acuerdo con 
@@ -121,7 +121,7 @@
                                 que pueda brindarle algún beneficio, estos correos electrónicos serán enviados a la dirección que usted
                                 proporcione y podrán ser cancelados en cualquier momento.
                                 <br>
-                                Rapi Burger está altamente comprometido para cumplir con el compromiso de mantener su información
+                                Rapi Burguer está altamente comprometido para cumplir con el compromiso de mantener su información
                                 segura. Usamos los sistemas más avanzados y los actualizamos constantemente para asegurarnos que no exista
                                 ningún acceso no autorizado.
                             </p>
@@ -148,7 +148,7 @@
                             <p>
                                 Esta compañía no venderá, cederá ni distribuirá la información personal que es recopilada sin su consentimiento,
                                 salvo que sea requerido por un juez con un orden judicial. <br> <br>
-                                Rapi Burger Se reserva el derecho de cambiar los términos de la presente Política de Privacidad 
+                                Rapi Burguer Se reserva el derecho de cambiar los términos de la presente Política de Privacidad 
                                 en cualquier momento.    
                             </p>
                         </div>
@@ -186,7 +186,7 @@
 
                         <div class="col-lg-4 col-sm-4 col-xs-12 pull-right">
                             <div class="basic_info">
-                                <a href=""><img class="footer_logo" src="https://i.imgur.com/PkQL0lh.png" alt="Burger" /></a>
+                                <a href=""><img class="footer_logo" src="https://i.imgur.com/PkQL0lh.png" alt="Burguer" /></a>
 
                                 <ul class="list-inline social">
                                     <li><a href="" class="fa fa-facebook"></a></li>
@@ -197,7 +197,7 @@
                                 <div class="footer-copyright">
                                     <p class="wow fadeInRight" data-wow-duration="1s">
                                         © 2024 Copyright:
-                                        <a class="text-dark" href="">RapidBurger</a>
+                                        <a class="text-dark" href="">RapidBurguer</a>
                                     </p>
                                 </div>					
                             </div>

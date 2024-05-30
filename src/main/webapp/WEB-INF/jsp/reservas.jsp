@@ -47,7 +47,7 @@
 
                     <!-- Start Header Navigation -->
                     <div class="navbar-header">
-                        <a class="navbar-brand" href="#"><img src="/images/logo.png" class="logo" alt=""></a>
+                        <a class="navbar-brand" href="/burger/index"><img src="https://i.imgur.com/PkQL0lh.png" style="margin-top: -20px; width:80px; height: 80px" class="logo" alt=""></a>
                     </div>
                     <!-- End Header Navigation -->
                 </div>   
@@ -62,9 +62,8 @@
                             <li><a href="/burger/login">Iniciar Sesion</a></li>
                             <li><a href="/burger/menu">Menu</a></li>
                             <li><a href="/burger/Nosotros">Nosotros</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Portfolio</a></li>
-                            <li><a href="#">Contacto</a></li>
+                            <li><a href="/burger/consultas">Consultas</a></li>
+                            <li><a href="/burger/reservas">Reservas</a></li>
                         </ul>
                     </div>
                 </div>
@@ -124,7 +123,7 @@
                             </div>
                             <div class="checkbox">
                                 <label>
-                                    <input type="checkbox"> He leído y acepto los Términos y condiciones de Rapi Burger.
+                                    <input type="checkbox"> He leído y acepto los Términos y condiciones de Rapi Burguer.
                                 </label>
                             </div>
                             <button type="submit" class="btn btn-primary">Enviar</button>
@@ -197,7 +196,7 @@
                                 <div class="footer-copyright">
                                     <p class="wow fadeInRight" data-wow-duration="1s">
                                         © 2024 Copyright:
-                                        <a class="text-dark" href="">RapidBurger</a>
+                                        <a class="text-dark" href="">RapidBurguer</a>
                                     </p>
                                 </div>					
                             </div>
