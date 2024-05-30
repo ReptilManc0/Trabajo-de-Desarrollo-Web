@@ -60,7 +60,7 @@
 
                 <!-- Start Header Navigation -->
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="#"><img src="https://i.imgur.com/PkQL0lh.png" class="logo" alt=""></a>
+                    <a class="navbar-brand" href="/burger/index"><img src="https://i.imgur.com/PkQL0lh.png" class="logo" alt=""></a>
                 </div>
                 <!-- End Header Navigation -->
             </div>   
@@ -214,13 +214,7 @@
 
                             <div class="carousel-caption">
                                 <h2>Alitas</h2>
-                                <h3>Stuffed Burgers</h3>
-
-                                <p>Chef Wesley Genovart makes this over-the-top, Shake Shack–inspired burger with two thin stacked patties, thick-cut bacon, kimchi and a spicy homemade sauce.</p>
-
-                                <div class="info_btn_shadow">
-                                    <a href="" class="info_btn">info & nutrition</a>
-                                </div>
+                                <p>Gran variedad de alitas al gusto de nuestros clientes (acevichadas , bbq , picantes , golf, etc).</p>
                             </div>
                         </div>
                         <div class="item">
@@ -228,13 +222,7 @@
 
                             <div class="carousel-caption">
                                 <h2>Bebidas</h2>
-                                <h3>Stuffed Burgers</h3>
-
-                                <p>Chef Wesley Genovart makes this over-the-top, Shake Shack–inspired burger with two thin stacked patties, thick-cut bacon, kimchi and a spicy homemade sauce.</p>
-
-                                <div class="info_btn_shadow">
-                                    <a href="" class="info_btn">info & nutrition</a>
-                                </div>
+                                <p>Refrescantes bebidas para acompa�ar tus comidas y tener una conscistencia perfecta.</p>
                             </div>
                         </div>
                         <div class="item">
@@ -242,13 +230,7 @@
 
                             <div class="carousel-caption">
                                 <h2>Hamburguesas</h2>
-                                <h3>Stuffed Burgers</h3>
-
-                                <p>Chef Wesley Genovart makes this over-the-top, Shake Shack–inspired burger with two thin stacked patties, thick-cut bacon, kimchi and a spicy homemade sauce.</p>
-
-                                <div class="info_btn_shadow">
-                                    <a href="" class="info_btn">info & nutrition</a>
-                                </div>
+                                <p>Las mejores hamburguesas caseras, hechas con productos e insumos de calidad, para el deleite de nuestros comenzales.</p>
                             </div>
                         </div>
                     </div><!-- carousel inner end -->
@@ -276,7 +258,7 @@
                         <div class="sides">
                             <div class="inner_content">
                                 <span class="flaticon flaticon-food"></span>
-                                <h2>ESPECIALES</h2>
+                                <h2>Combos</h2>
                             </div>
                         </div>
                     </div>

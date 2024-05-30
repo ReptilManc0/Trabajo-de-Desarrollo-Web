@@ -47,7 +47,7 @@
 
                     <!-- Start Header Navigation -->
                     <div class="navbar-header">
-                        <a class="navbar-brand" href="#"><img src="/images/logo.png" class="logo" alt=""></a>
+                        <a class="navbar-brand" href="#"><img src="https://i.imgur.com/PkQL0lh.png" class="logo" alt=""></a>
                     </div>
                     <!-- End Header Navigation -->
                 </div>   
@@ -59,12 +59,11 @@
                         <h6 class="title">Menu</h6>
                         <ul class="link">
                             <li><a href="/burger/index">Inicio</a></li>
-                        <li><a href="/burger/login">Iniciar Sesion</a></li>
-                        <li><a href="/burger/menu">Menu</a></li>
-                        <li><a href="/burger/Nosotros">Nosotros</a></li>
-                        <li><a href="/burger/consultas">Consultas</a></li>
-                        <li><a href="/burger/reservas">Reservas</a></li>
-                        <li><a href="#">Contacto</a></li>
+                            <li><a href="/burger/login">Iniciar Sesion</a></li>
+                            <li><a href="/burger/menu">Menu</a></li>
+                            <li><a href="/burger/Nosotros">Nosotros</a></li>
+                            <li><a href="/burger/consultas">Consultas</a></li>
+                            <li><a href="/burger/reservas">Reservas</a></li>
                         </ul>
                     </div>
                 </div>
