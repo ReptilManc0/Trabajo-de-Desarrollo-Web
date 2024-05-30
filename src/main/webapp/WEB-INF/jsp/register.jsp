@@ -16,11 +16,7 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta http-equiv="x-ua-compatible" content="ie=edge" />
-<<<<<<< HEAD
-        <title>Iniciar Sesion</title>
-=======
         <title>Register</title>
->>>>>>> branch 'master' of https://Fabio74121031@github.com/ReptilManc0/Trabajo-de-Desarrollo-Web.git
         <!-- Font Awesome -->
         <link
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
@@ -99,13 +95,8 @@
                                         <label class="form-label" for="txtApellidos">Apellidos </label>
                                     </div>
                                     <div class="form-outline mb-4" data-mdb-input-init>
-<<<<<<< HEAD
-                                        <input type="text" id="txtTelï¿½fono" class="form-control" />
-                                        <label class="form-label" for="txtTelï¿½fono">Teléfono</label>
-=======
                                         <input type="number" id="txtTeléfono" class="form-control" required/>
                                         <label class="form-label" for="txtTeléfono">Telefono</label>
->>>>>>> branch 'master' of https://Fabio74121031@github.com/ReptilManc0/Trabajo-de-Desarrollo-Web.git
                                     </div>
                                     <div class="form-outline mb-4" data-mdb-input-init>
                                         <input type="email" id="txtCorreo" class="form-control" required/>
@@ -113,13 +104,8 @@
                                     </div>
                                     <!-- Password input -->
                                     <div class="form-outline mb-4" data-mdb-input-init>
-<<<<<<< HEAD
-                                        <input type="password" id="txtContraseï¿½a" class="form-control" />
-                                        <label class="form-label" for="txtContraseï¿½a">Contraseña</label>
-=======
                                         <input type="password" id="txtContrasenia" class="form-control" required/>
                                         <label class="form-label" for="txtContrasenia">Contraseña</label>
->>>>>>> branch 'master' of https://Fabio74121031@github.com/ReptilManc0/Trabajo-de-Desarrollo-Web.git
                                     </div>
 
                                     <div class="text-dark">
@@ -149,11 +135,7 @@
                                     </div>
                                     <a role="button" class="btn btn-danger btn-lg m-2" data-mdb-ripple-init
                                        href="/burger/login" rel="nofollow" >
-<<<<<<< HEAD
-                                        Iniciar Sesion
-=======
                                         Iniciar Sesión
->>>>>>> branch 'master' of https://Fabio74121031@github.com/ReptilManc0/Trabajo-de-Desarrollo-Web.git
                                     </a>
 
                                 </div>
