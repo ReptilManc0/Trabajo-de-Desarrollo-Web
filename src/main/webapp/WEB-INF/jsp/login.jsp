@@ -32,7 +32,9 @@
             rel="stylesheet"
             />
         <link href="/css/login.css" rel="stylesheet" type="text/css"/>
-
+        
+        <!--SweetAlert para loa Modal-->
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     </head>
     <body style="background-color: #000">
 
@@ -97,13 +99,13 @@
                                     </div>
                                     <!-- Email input -->
                                     <div class="form-outline mb-4" data-mdb-input-init>
-                                        <input type="email" id="form1Example1" class="form-control"  required/>
+                                        <input type="email" id="form1Example1" name="emailCliente" class="form-control"/>
                                         <label class="form-label" for="form1Example1">Correo</label>
                                     </div>
-
+                                    
                                     <!-- Password input -->
                                     <div class="form-outline mb-4" data-mdb-input-init>
-                                        <input type="password" id="form1Example2" class="form-control" required/>
+                                        <input type="password" id="form1Example2" name="passwordCliente" class="form-control"/>
                                         <label class="form-label" for="form1Example2">Contraseña</label>
                                     </div>
                                     <!-- 2 column grid layout for inline styling -->
@@ -150,7 +152,7 @@
             type="text/javascript"
             src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.3.0/mdb.umd.min.js"
         ></script>
-
+        <script src="/js/ValidarLogin.js" type="text/javascript"></script>
     </body>
     <footer class="text-center text-lg-start  text-white " style="background-color:#454646">
         <div class="py-4 text-center">
