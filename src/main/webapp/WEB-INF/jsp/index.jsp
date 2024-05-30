@@ -306,7 +306,7 @@
                             <a href=""><img class="footer_logo" src="https://i.imgur.com/PkQL0lh.png" alt="Burger" /></a>
 
                             <ul class="list-inline social">
-                                <li><a href="" class="fa fa-facebook"></a></li>
+                                <li><a href="https://www.facebook.com/profile.php?id=61560438118127" class="fa fa-facebook"></a></li>
                                 <li><a href="https://wa.me/51947190888" target="_blank" class="fa-brands fa-whatsapp"></a></li>
                                 <li><a href="" class="fa fa-instagram"></a></li>
                             </ul>

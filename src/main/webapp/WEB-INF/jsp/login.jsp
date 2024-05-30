@@ -99,7 +99,7 @@
                                     </div>
                                     <!-- Email input -->
                                     <div class="form-outline mb-4" data-mdb-input-init>
-                                        <input type="email" id="form1Example1" name="emailCliente" class="form-control"/>
+                                        <input type="email" id="form1Example1" name="emailCliente" class="form-control" required=""/>
                                         <label class="form-label" for="form1Example1">Correo</label>
                                     </div>
                                     
