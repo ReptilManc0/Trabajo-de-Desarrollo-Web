@@ -32,13 +32,28 @@
         <script src="https://kit.fontawesome.com/233c0f00ee.js" crossorigin="anonymous"></script>
         <!-- Css WhatsApp btn-Whatsapp -->
         <link href="/css/btnWsp.css" rel="stylesheet" type="text/css"/>
-   
     </head>
     <body data-spy="scroll" data-target="#navbar-menu" data-offset="100">
+        <!-- Preloader --> 
+        <div id="loading">
+            <div id="loading-center">
+                <div id="loading-center-absolute">
+                    <div class="object" id="object_one"></div>
+                    <div class="object" id="object_two"></div>
+                    <div class="object" id="object_three"></div>
+                    <div class="object" id="object_four"></div>
+                    <div class="object" id="object_five"></div>
+                    <div class="object" id="object_six"></div>
+                    <div class="object" id="object_seven"></div>
+                    <div class="object" id="object_eight"></div>
+                    <div class="object" id="object_big"></div>
+                </div>
+            </div>
+        </div>
+        <!--End Preloader -->
         <!-- Navbar -->
-      <nav class="navbar navbar-default bootsnav no-background navbar-fixed black">
+        <nav class="navbar navbar-default bootsnav no-background navbar-fixed black">
             <div class="container">  
-
                 <!-- Start Atribute Navigation -->
                 <div class="attr-nav">
                     <ul>
@@ -49,7 +64,7 @@
 
                 <!-- Start Header Navigation -->
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="#"><img src="/images/logo.png" class="logo" alt=""></a>
+                    <a class="navbar-brand" href="/burger/index"><img src="https://i.imgur.com/PkQL0lh.png" style="margin-top: -20px; width:80px; height: 80px" class="logo" alt=""></a>
                 </div>
                 <!-- End Header Navigation -->
             </div>   
@@ -64,9 +79,8 @@
                         <li><a href="/burger/login">Iniciar Sesion</a></li>
                         <li><a href="/burger/menu">Menu</a></li>
                         <li><a href="/burger/Nosotros">Nosotros</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Portfolio</a></li>
-                        <li><a href="#">Contacto</a></li>
+                        <li><a href="/burger/consultas">Consultas</a></li>
+                        <li><a href="/burger/reservas">Reservas</a></li>
                     </ul>
                 </div>
             </div>
@@ -108,7 +122,7 @@
 
                 <!-- Third section -->
                 <!-- Carousel -->
-                
+
                 <!-- Fin Carrusel 02 -->
             </div>
         </div>
@@ -120,56 +134,56 @@
         <p>Echa un vistazo a nuestros horarios de apertura y dirección de ubicación a continuación</p>
     </section>
     <!-- Footer -->
-   <footer>
-            <!-- Container -->
-            <div class="container">
-                <div class="row">
+    <footer>
+        <!-- Container -->
+        <div class="container">
+            <div class="row">
 
-                    <div class="col-lg-3 col-sm-4 col-xs-12 col-lg-offset-1 pull-right">
-                        <div class="subscribe">
-                            <h4>¿Tienes alguna duda?</h4>
-                            <p>Ingresa al <a href="">Apartado de consultas</a></p>
-                            
-                            <h4>¿Tienes alguna queja?</h4>
-                            <p>Revisa el <a href="">Libro de Reclamaciones</a></p>
-                        </div>
+                <div class="col-lg-3 col-sm-4 col-xs-12 col-lg-offset-1 pull-right">
+                    <div class="subscribe">
+                        <h4>¿Tienes alguna duda?</h4>
+                        <p>Ingresa al <a href="">Apartado de consultas</a></p>
+
+                        <h4>¿Tienes alguna queja?</h4>
+                        <p>Revisa el <a href="">Libro de Reclamaciones</a></p>
                     </div>
-
-                    <div class="col-lg-3 col-sm-4 col-xs-12 col-lg-offset-1 pull-right">
-                        <div class="contact_us">
-                            <h4>Contáctanos</h4>
-                            <a href="">rapiburguer@gmail.com</a>
-                            <a href="">LLamanos : 954588927</a>
-                            <address>
-                                
-                                Calle lima 919, Ica<br />
-                                Perú<br />
-                            </address>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-sm-4 col-xs-12 pull-right">
-                        <div class="basic_info">
-                            <a href=""><img class="footer_logo" src="https://i.imgur.com/PkQL0lh.png" alt="Burger" /></a>
-
-                            <ul class="list-inline social">
-                                <li><a href="" class="fa fa-facebook"></a></li>
-                                <li><a href="https://wa.me/51947190888" target="_blank" class="fa-brands fa-whatsapp"></a></li>
-                                <li><a href="" class="fa fa-instagram"></a></li>
-                            </ul>
-
-                            <div class="footer-copyright">
-                                <p class="wow fadeInRight" data-wow-duration="1s">
-                                     © 2024 Copyright:
-                                <a class="text-dark" href="">RapidBurger</a>
-                                </p>
-                            </div>					
-                        </div>
-                    </div>
-
                 </div>
-            </div><!-- Container end -->
-        </footer><!-- Footer end -->
+
+                <div class="col-lg-3 col-sm-4 col-xs-12 col-lg-offset-1 pull-right">
+                    <div class="contact_us">
+                        <h4>Contáctanos</h4>
+                        <a href="">rapiburguer@gmail.com</a>
+                        <a href="">LLamanos : 954588927</a>
+                        <address>
+
+                            Calle lima 919, Ica<br />
+                            Perú<br />
+                        </address>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-sm-4 col-xs-12 pull-right">
+                    <div class="basic_info">
+                        <a href=""><img class="footer_logo" src="https://i.imgur.com/PkQL0lh.png" alt="Burger" /></a>
+
+                        <ul class="list-inline social">
+                            <li><a href="" class="fa fa-facebook"></a></li>
+                            <li><a href="https://wa.me/51947190888" target="_blank" class="fa-brands fa-whatsapp"></a></li>
+                            <li><a href="" class="fa fa-instagram"></a></li>
+                        </ul>
+
+                        <div class="footer-copyright">
+                            <p class="wow fadeInRight" data-wow-duration="1s">
+                                © 2024 Copyright:
+                                <a class="text-dark" href="">RapidBurger</a>
+                            </p>
+                        </div>					
+                    </div>
+                </div>
+
+            </div>
+        </div><!-- Container end -->
+    </footer><!-- Footer end -->
 
 
     <!-- Modal -->
@@ -213,7 +227,7 @@
     </div>
     <!-- End off scroll up->
     
-
+    
     <!-- JavaScript -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.2.0/mdb.umd.min.js"></script>
     <script src="http://code.jquery.com/jquery-1.12.1.min.js"></script>		
@@ -226,11 +240,11 @@
     <script src="/js/main.js" type="text/javascript"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    
+
     <!--WhatsApp API-->
-        <a href="https://api.whatsapp.com/send?phone=947190888" class="btn-wsp" target="_blank">
-            <i class="fa-brands fa-whatsapp"></i>
-                </a>
+    <a href="https://api.whatsapp.com/send?phone=947190888" class="btn-wsp" target="_blank">
+        <i class="fa-brands fa-whatsapp"></i>
+            </a>
     <!-- MDB -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.2.0/mdb.umd.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>

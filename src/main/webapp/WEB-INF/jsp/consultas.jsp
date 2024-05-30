@@ -59,12 +59,11 @@
                         <h6 class="title">Menu</h6>
                         <ul class="link">
                             <li><a href="/burger/index">Inicio</a></li>
-                        <li><a href="/burger/login">Iniciar Sesion</a></li>
-                        <li><a href="/burger/menu">Menu</a></li>
-                        <li><a href="/burger/Nosotros">Nosotros</a></li>
-                        <li><a href="/burger/consultas">Consultas</a></li>
-                        <li><a href="/burger/reservas">Reservas</a></li>
-                        <li><a href="#">Contacto</a></li>
+                            <li><a href="/burger/login">Iniciar Sesion</a></li>
+                            <li><a href="/burger/menu">Menu</a></li>
+                            <li><a href="/burger/Nosotros">Nosotros</a></li>
+                            <li><a href="/burger/consultas">Consultas</a></li>
+                            <li><a href="/burger/reservas">Reservas</a></li>
                         </ul>
                     </div>
                 </div>
@@ -97,10 +96,6 @@
                     <div class="col-md-8 col-md-offset-2" id="Form-Consultas">
                         <form action="https://formspree.io/f/xvoenjba" method="POST">
                             <h2>Formulario de Consultas</h2>
-                            <div class="form-group">
-                                <label for="txtDNIConsulta">Nro DNI</label>
-                                <input name="DNI" type="text" class="form-control" id="txtDNIConsulta" placeholder="Ingrese su documento">
-                            </div>
                             <div class="form-group">
                                 <label for="txtNombreConsulta">Nombres Completos *</label>
                                 <input type="text" class="form-control" id="txtNombreConsulta" placeholder="Ingrese sus nombres" required name="NombresCompletos">
@@ -137,7 +132,7 @@
                             </div>-->
                             <div class="form-group">
                                 <label for="txtTelfConsulta">Teléfono *</label>
-                                <input type="text" class="form-control" id="txtTelfConsulta" placeholder="Ingrese su teléfono" name="Telefono" required>
+                                <input type="number" class="form-control" id="txtTelfConsulta" placeholder="Ingrese su teléfono" name="Telefono" required>
                             </div>
                             <div class="form-group">
                                 <label for="txtCorreoConsulta">Correo electrónico *</label>
