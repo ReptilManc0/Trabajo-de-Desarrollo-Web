@@ -91,7 +91,6 @@
                     <li><a href="/burger/Nosotros">Nosotros</a></li>
                     <li><a href="/burger/consultas">Consultas</a></li>
                     <li><a href="/burger/reservas">Reservas</a></li>
-                    <li><a href="#">Contacto</a></li>
                 </ul>
             </div>
         </div>
@@ -125,7 +124,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 section">
-                    <img src="/images/miiiii.jpg" alt=""/>
+                    <img src="https://i.imgur.com/9fpmwWK.jpg" alt=""/>
                     <h3>Misión</h3>
                     <p>Nuestra misión en Rapiburguer es ofrecer a nuestros clientes una experiencia gastronómica excepcional, brindando productos de alta calidad, un servicio impecable y un ambiente acogedor que los haga sentir bienvenidos en cada visita.</p>
                 </div>
