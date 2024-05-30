@@ -11,27 +11,27 @@
         <meta charset="utf-8">
         <title>MENU</title>
         <!-- Mobile Specific Meta -->
-            <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-            <!-- Stylesheets -->
-            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
-            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
-            <link href="/css/flaticon.css" rel="stylesheet" type="text/css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <!-- Stylesheets -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+        <link href="/css/flaticon.css" rel="stylesheet" type="text/css"/>
 
-            <!-- Animate -->
-            <link href="/css/animate.css" rel="stylesheet" type="text/css"/>
-            <!-- Bootsnav -->
-            <link href="/css/bootsnav.css" rel="stylesheet" type="text/css"/>
-            <!-- Color style -->
-            <link href="/css/color.css" rel="stylesheet" type="text/css"/>
-            <!-- Custom stylesheet -->
-            <link href="/css/custom.css" rel="stylesheet" type="text/css"/>
-            <!--[if lt IE 9]>
-                    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-            <![endif]-->
-            <!--Font Awesome (WhatsApp creo)-->
-            <script src="https://kit.fontawesome.com/233c0f00ee.js" crossorigin="anonymous"></script>
-            <!-- Css WhatsApp btn-Whatsapp -->
-            <link href="/css/btnWsp.css" rel="stylesheet" type="text/css"/>
+        <!-- Animate -->
+        <link href="/css/animate.css" rel="stylesheet" type="text/css"/>
+        <!-- Bootsnav -->
+        <link href="/css/bootsnav.css" rel="stylesheet" type="text/css"/>
+        <!-- Color style -->
+        <link href="/css/color.css" rel="stylesheet" type="text/css"/>
+        <!-- Custom stylesheet -->
+        <link href="/css/custom.css" rel="stylesheet" type="text/css"/>
+        <!--[if lt IE 9]>
+                <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        <!--Font Awesome (WhatsApp creo)-->
+        <script src="https://kit.fontawesome.com/233c0f00ee.js" crossorigin="anonymous"></script>
+        <!-- Css WhatsApp btn-Whatsapp -->
+        <link href="/css/btnWsp.css" rel="stylesheet" type="text/css"/>
     </head>
     <body data-spy="scroll" data-target="#navbar-menu" data-offset="100">
         <!-- Preloader --> 
@@ -64,7 +64,7 @@
 
                 <!-- Start Header Navigation -->
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="/burger/index"><img src="https://i.imgur.com/PkQL0lh.png" class="logo" alt=""></a>
+                    <a class="navbar-brand" href="/burger/index"><img src="https://i.imgur.com/PkQL0lh.png" style="margin-top: -20px; width:80px; height: 80px" class="logo" alt=""></a>
                 </div>
                 <!-- End Header Navigation -->
             </div>   

@@ -97,10 +97,6 @@
                         <form action="https://formspree.io/f/xvoenjba" method="POST">
                             <h2>Formulario de Consultas</h2>
                             <div class="form-group">
-                                <label for="txtDNIConsulta">Nro DNI</label>
-                                <input name="DNI" type="text" class="form-control" id="txtDNIConsulta" placeholder="Ingrese su documento">
-                            </div>
-                            <div class="form-group">
                                 <label for="txtNombreConsulta">Nombres Completos *</label>
                                 <input type="text" class="form-control" id="txtNombreConsulta" placeholder="Ingrese sus nombres" required name="NombresCompletos">
                             </div>
@@ -136,7 +132,7 @@
                             </div>-->
                             <div class="form-group">
                                 <label for="txtTelfConsulta">Teléfono *</label>
-                                <input type="text" class="form-control" id="txtTelfConsulta" placeholder="Ingrese su teléfono" name="Telefono" required>
+                                <input type="number" class="form-control" id="txtTelfConsulta" placeholder="Ingrese su teléfono" name="Telefono" required>
                             </div>
                             <div class="form-group">
                                 <label for="txtCorreoConsulta">Correo electrónico *</label>

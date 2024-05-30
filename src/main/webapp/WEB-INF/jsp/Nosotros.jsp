@@ -67,7 +67,7 @@
 
                     <!-- Start Header Navigation -->
                     <div class="navbar-header">
-                        <a class="navbar-brand" href="/burger/index"><img src="https://i.imgur.com/PkQL0lh.png" class="logo" alt=""></a>
+                        <a class="navbar-brand" href="/burger/index"><img src="https://i.imgur.com/PkQL0lh.png" style="margin-top: -20px; width:80px; height: 80px" class="logo" alt=""></a>
                     </div>
                     <!-- End Header Navigation -->
                 </div>   
