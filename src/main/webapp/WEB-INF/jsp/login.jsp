@@ -152,11 +152,7 @@
             type="text/javascript"
             src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.3.0/mdb.umd.min.js"
         ></script>
-<<<<<<< HEAD
-        <script src="/js/ValidarLogin.js" type="text/javascript"></script>
-=======
         <script src="/static/js/validarLogin.js" type="text/javascript"></script>
->>>>>>> branch 'master' of https://Fabio74121031@github.com/ReptilManc0/Trabajo-de-Desarrollo-Web.git
     </body>
     <footer class="text-center text-lg-start  text-white " style="background-color:#454646">
         <div class="py-4 text-center">
