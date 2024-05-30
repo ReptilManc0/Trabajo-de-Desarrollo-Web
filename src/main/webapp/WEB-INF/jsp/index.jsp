@@ -150,7 +150,7 @@
 
                             <div class="overlay">
                                 <h3>La Clásica</h3>
-                                <p>(served in a grilled rosemary focaccia).</p>
+                                <p>(simple pero llenadora).</p>
 
                                 <p class="overlay_content">El contenido de este plato es: Hamburguesa de la Casa, con Huevo frito y Papás al Hilo</p>
                             </div>
@@ -166,21 +166,19 @@
                                 <li data-target="#small_carousel" data-slide-to="1"></li>
                                 <li data-target="#small_carousel" data-slide-to="2"></li>
                             </ol>
-
+                              <div class="overlay"> 
                             <div class="carousel-caption">
-                                <h3>The Original Burger</h3>
+                                <h3>La Rellena y Repleta</h3>
                                 <hr />
-
+                                
                                 <ul class="list-unstyled nutrition">
-                                    <li><a href=""><span class="flaticon flaticon-protein"></span><p>Protein - 33g</p></a></li>
-                                    <li><a href=""><span class="flaticon flaticon-carbohydrate"></span><p>Carbohydrates - 46gm</p></a></li>
-                                    <li><a href=""><span class="flaticon flaticon-calories"></span><p>Calories - 750 kcal</p></a></li>
+                                    <li><span></span><p>Para acabar con el hambre más salvaje</p></li>
+                                    <li><span></span><p> (Hamburguesa Res/Pollo, Huevo Frito,Papas al Hilo)</p></li>
+                                    
                                 </ul>
-                                <div class="info_btn_shadow">
-                                    <a href="" class="info_btn">info & nutrition</a>
-                                </div>
+ 
                             </div>
-
+                        </div>
                             <!-- carousel inner -->
                             <div class="carousel-inner" role="listbox">
                                 <div class="item active">
