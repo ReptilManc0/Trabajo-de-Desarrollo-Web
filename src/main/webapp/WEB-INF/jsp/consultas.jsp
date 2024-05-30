@@ -47,7 +47,7 @@
 
                     <!-- Start Header Navigation -->
                     <div class="navbar-header">
-                        <a class="navbar-brand" href="#"><img src="https://i.imgur.com/PkQL0lh.png" class="logo" alt=""></a>
+                        <a class="navbar-brand" href="/burger/index"><img src="https://i.imgur.com/PkQL0lh.png" style="margin-top: -20px; width:80px; height: 80px" class="logo" alt=""></a>
                     </div>
                     <!-- End Header Navigation -->
                 </div>   
@@ -189,7 +189,7 @@
                         </div>
                         <div class="col-lg-4 col-sm-4 col-xs-12 pull-right">
                             <div class="basic_info">
-                                <a href=""><img class="footer_logo" src="https://i.imgur.com/PkQL0lh.png" alt="Burger" /></a>
+                                <a href="/burger/index"><img class="footer_logo" src="https://i.imgur.com/PkQL0lh.png" alt="Burger" /></a>
 
                                 <ul class="list-inline social">
                                     <li><a href="" class="fa fa-facebook"></a></li>
