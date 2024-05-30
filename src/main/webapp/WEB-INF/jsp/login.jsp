@@ -97,13 +97,13 @@
                                     </div>
                                     <!-- Email input -->
                                     <div class="form-outline mb-4" data-mdb-input-init>
-                                        <input type="email" id="form1Example1" class="form-control" />
+                                        <input type="email" id="form1Example1" class="form-control"  required/>
                                         <label class="form-label" for="form1Example1">Correo</label>
                                     </div>
 
                                     <!-- Password input -->
                                     <div class="form-outline mb-4" data-mdb-input-init>
-                                        <input type="password" id="form1Example2" class="form-control" />
+                                        <input type="password" id="form1Example2" class="form-control" required/>
                                         <label class="form-label" for="form1Example2">Contraseña</label>
                                     </div>
                                     <!-- 2 column grid layout for inline styling -->
