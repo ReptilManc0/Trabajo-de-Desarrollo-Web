@@ -16,7 +16,7 @@
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
             <link href="/css/flaticon.css" rel="stylesheet" type="text/css"/>
-            
+
             <!--SweetAlert para los Modal-->
             <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
             <!-- Animate -->
@@ -103,19 +103,24 @@
                                 <input type="text" class="form-control" id="txtNombreConsulta" placeholder="Ingrese sus nombres" required name="NombresCompletos">
                             </div>
                             <div class="form-group">
-                                <label for="txtDepartamento">Departamento</label>
+                                <label for="txtDepartamento">Distritos </label>
                                 <select id="txtDepartamento" class="form-control" name="Departamento">
                                     <!-- Esto tiene que ir vinculado a la base de datos o, según veamos 
                                       conveniente que sea solo Ica --> 
-                                    <option selected>Amazonas</option>
-                                    <option selected>Áncash</option>
-                                    <option selected>Apurímac</option>
-                                    <option selected>Arequipa</option>
-                                    <option selected>Ayacucho</option>
-                                    <option selected>Cajamarca</option>
-                                    <option selected>Cuzco</option>
                                     <option selected>Ica</option>
-                                    <option selected>Lima</option>
+                                    <option selected>La Tinguiña</option>
+                                    <option selected>Los Aquijes</option>
+                                    <option selected>Ocucaje</option>
+                                    <option selected>Pachacútec</option>
+                                    <option selected>Parcona</option>
+                                    <option selected>Pueblo Nuevo</option>
+                                    <option selected>Salas</option>
+                                    <option selected>San José de los Molinos</option>
+                                    <option selected>San Juan Bautista</option>
+                                    <option selected>Santiago</option>
+                                    <option selected>Subtanjalla</option>
+                                    <option selected>Tate</option>
+                                    <option selected>Yauca del Rosario</option>
                                 </select>
                             </div>
                             <!--<div class="form-group col-md-4">
@@ -228,17 +233,7 @@
             <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.2.0/mdb.umd.min.js"></script>
             <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-            <script type="text/javascript">
-            document.getElementById('consultaForm').addEventListener('submit', function(event) {
-                event.preventDefault();
-                Swal.fire({
-                    title: 'Consulta Enviada',
-                    text: 'Tu consulta ha sido enviada exitosamente.',
-                    icon: 'success',
-                    confirmButtonText: 'Aceptar'
-                });
-            });
-        </script>
+
         </body>
     </html>
 

@@ -105,7 +105,7 @@
                                     
                                     <!-- Password input -->
                                     <div class="form-outline mb-4" data-mdb-input-init>
-                                        <input type="password" id="form1Example2" name="passwordCliente" class="form-control"/>
+                                        <input type="password" id="form1Example2" name="passwordCliente" class="form-control" required=""/>
                                         <label class="form-label" for="form1Example2">Contraseña</label>
                                     </div>
                                     <!-- 2 column grid layout for inline styling -->
@@ -212,7 +212,7 @@
                     <div class="col-lg-3 col-sm-4 col-xs-12 col-lg-offset-1 pull-right">
                         <div class="subscribe">
                             <h4>¿Tienes alguna duda?</h4>
-                            <p>Ingresa al <a href="">Apartado de consultas</a></p>
+                            <p>Ingresa al <a href="/burger/consultas">Apartado de consultas</a></p>
 
                             <h4>¿Tienes alguna queja?</h4>
                             <p>Revisa el <a href="">Libro de Reclamaciones</a></p>
